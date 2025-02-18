@@ -63,7 +63,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ## 🏆 Skills & Achievements
 
 ![Pull Shark](https://img.shields.io/badge/Pull%20Shark-000000?style=for-the-badge&logo=github&logoColor=white)
-![50 Days of Code](https://leetcode-badge-api.herokuapp.com/badges/50_days_of_code)
+![50 Days of Code]([https://leetcode-badge-api.herokuapp.com/badges/50_days_of_code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fleetcode.com%2Fdiscuss%2Finterview-question%2F4769573%2F50-Days-Badge-2024%2F&psig=AOvVaw1RHMtKjU3e7h3ZsSffZwHa&ust=1739996043327000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKiS3cSEzosDFQAAAAAdAAAAABAE))
 ![Python Coder](https://img.shields.io/badge/Python%20Coder-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Vampire](https://kaggle-badges.herokuapp.com/badges/vampire)
 
