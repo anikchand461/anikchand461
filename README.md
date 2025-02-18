@@ -1,16 +1,58 @@
-## Hi there 👋
+🔥 Hi there! I'm Anik Chand
 
-<!--
-**anikchand461/anikchand461** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Machine Learning Engineering Enthusiast | Graphic Designer
 
-Here are some ideas to get you started:
+🌱 I'm currently following steps to master: Machine Learning.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💬 Ask me about Python / ML / Web Dev / Designing / Anything.
+
+📫 How to reach me: anikchand461@gmail.com
+
+⚡ About me: I'm a backbencher with a knack for smart solutions.
+
+💪 Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am
+
+🌍 I know English, Hindi, Bengali.
+
+🇮🇳 From India
+
+## 🛠️ Skills and Expertise
+
+### Programming Languages:
+Python | Java | C++ | C | Go
+
+### Web Development:
+HTML5 | CSS3 | JavaScript | Figma
+
+### Frameworks:
+Django | Bootstrap | Bulma
+
+### Database Management:
+MySQL
+
+### Collaboration Tools:
+Git | GitHub
+
+### Problem Solving:
+Python | Java
+
+### Machine Learning:
+Regression
+
+### Libraries & ML Tools:
+NumPy | Pandas | Matplotlib | Seaborn | Scikit-Learn
+
+### Open-Source Tools:
+Jupyter
+
+## 🏆 Skills & Achievements
+
+![Skill Badge](#) ![Achievement Badge](#)
+
+## 🤝 Connect with me:
+
+[LinkedIn](#) | [Hackerrank](#) | [Leetcode](#) | [GitHub](#) | [Devfolio](#) | [Dev.to](#)
+
+---
+
+**THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌**
