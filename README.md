@@ -57,15 +57,18 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-### Open-Source Tools:
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+## Badges
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="90px" height="90px" /> <img src="https://tinyurl.com/2xu4jh24" width="90px" height="90px" /> <img src="https://github.com/user-attachments/assets/a17aafdd-e7cd-4393-b406-359afedaa277" width="90px" height="90px" /> <img src="https://quira.sh/images/badges/daytona-23-badge.svg" width="90px" height="90px" /> <img src="https://quira.sh/images/badges/hacktoberfest-megaquest-impact.svg" width="90px" height="90px" /> <img src="https://github.com/user-attachments/assets/0ff0e752-e75b-49d8-87fe-2832cc2d6511" width="90px" height="90px" /> <img src="https://github.com/user-attachments/assets/e3331047-fcc1-476f-b22c-d6124396132d" width="90px" height="90px" />
 
-## 🏆 Skills & Achievements
 
-![Pull Shark](https://img.shields.io/badge/Pull%20Shark-000000?style=for-the-badge&logo=github&logoColor=white)
-![50 Days of Code]([https://leetcode-badge-api.herokuapp.com/badges/50_days_of_code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fleetcode.com%2Fdiscuss%2Finterview-question%2F4769573%2F50-Days-Badge-2024%2F&psig=AOvVaw1RHMtKjU3e7h3ZsSffZwHa&ust=1739996043327000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKiS3cSEzosDFQAAAAAdAAAAABAE))
-![Python Coder](https://img.shields.io/badge/Python%20Coder-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Vampire](https://kaggle-badges.herokuapp.com/badges/vampire)
+## Connect with me:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhirajadhikary06)
+[![Hackerrank](https://img.shields.io/badge/Hackerrank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/abhirajadhikary1)
+[![Leetcode](https://img.shields.io/badge/Leetcode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/0vz9vQHr2y/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhirajadhikary06)
+[![Devfolio](https://img.shields.io/badge/Devfolio-Profile-9cf?style=for-the-badge&logo=devfolio)](https://devfolio.co/@abhirajadhikary)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/abhirajadhikary06)
 
 ## 🤝 Connect with me:
 
