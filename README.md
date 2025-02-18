@@ -62,7 +62,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 
 ## 🏆 Skills & Achievements
 
-![Skill Badge](#) ![Achievement Badge](#)
+![Skill Badge](https://github.com/users/anikchand461/achievements/pull-shark) ![Achievement Badge](#)
 
 ## 🤝 Connect with me:
 
