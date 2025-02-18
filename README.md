@@ -67,13 +67,13 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 
 ## 🤝 Connect with me:
 
-[![LinkedIn](linkedin.com/in/anik-chand-3b14b12b6)](#)
-[![Hackerrank](https://x.com/anikchand461](#)
-[![Leetcode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-[![Devfolio](https://img.shields.io/badge/Devfolio-0A0A0A?style=for-the-badge&logo=devfolio&logoColor=white)](#)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](#)
-
+#[![LinkedIn](linkedin.com/in/anik-chand-3b14b12b6)](#)
+#[![Twitter](https://x.com/anikchand461)](#)
+#[![Coding Ninjas](https://www.naukri.com/code360/profile/anikchand)](#)
+[![GitHub]([https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://leetcode.com/u/anikchand461/))](#)
+[![LeetCode]([https://img.shields.io/badge/Devfolio-0A0A0A?style=for-the-badge&logo=devfolio&logoColor=white](https://leetcode.com/u/anikchand461/))](#)
+[![Dev.to]([https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/anikchand461)](#)
+[![Devfolio]([https://devfolio.co/@anikchand461](https://dev.to/anikchand461))](#0)
 ---
 
 **THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌**
