@@ -67,8 +67,8 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 
 ## 🤝 Connect with me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Hackerrank](https://img.shields.io/badge/Hackerrank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](#)
+[![LinkedIn](linkedin.com/in/anik-chand-3b14b12b6)](#)
+[![Hackerrank](https://x.com/anikchand461](#)
 [![Leetcode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](#)
 [![Devfolio](https://img.shields.io/badge/Devfolio-0A0A0A?style=for-the-badge&logo=devfolio&logoColor=white)](#)
