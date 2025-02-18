@@ -57,23 +57,4 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## Badges
-![Pull Shark](https://img.shields.io/badge/Pull%20Shark-000000?style=for-the-badge&logo=github&logoColor=white)
-![Pull Shark](https://img.shields.io/badge/Pull%20Shark-000000?style=for-the-badge&logo=github&logoColor=white)
-![50 Days of Code](https://leetcode-badge-api.herokuapp.com/badges/50_days_of_code)
-![Python Coder](https://img.shields.io/badge/Python%20Coder-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Vampire](https://kaggle-badges.herokuapp.com/badges/vampire)
-
-
-## 🤝 Connect with me:
-
-#[![LinkedIn](linkedin.com/in/anik-chand-3b14b12b6)](#)
-#[![Twitter](https://x.com/anikchand461)](#)
-#[![Coding Ninjas](https://www.naukri.com/code360/profile/anikchand)](#)
-[![GitHub]([https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://leetcode.com/u/anikchand461/))](#)
-[![LeetCode]([https://img.shields.io/badge/Devfolio-0A0A0A?style=for-the-badge&logo=devfolio&logoColor=white](https://leetcode.com/u/anikchand461/))](#)
-[![Dev.to]([https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/anikchand461)](#)
-[![Devfolio]([https://devfolio.co/@anikchand461](https://dev.to/anikchand461))](#0)
----
-
 **THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌**
