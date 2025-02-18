@@ -62,7 +62,10 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 
 ## 🏆 Skills & Achievements
 
-![Skill Badge](https://github.com/users/anikchand461/achievements/pull-shark) ![Achievement Badge](#)
+![Pull Shark](https://img.shields.io/badge/Pull%20Shark-000000?style=for-the-badge&logo=github&logoColor=white)
+![50 Days of Code](https://leetcode-badge-api.herokuapp.com/badges/50_days_of_code)
+![Python Coder](https://img.shields.io/badge/Python%20Coder-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Vampire](https://kaggle-badges.herokuapp.com/badges/vampire)
 
 ## 🤝 Connect with me:
 
