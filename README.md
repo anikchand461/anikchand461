@@ -58,7 +58,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ## 🏅 Badges & Achievements
-<img src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-06.gif" width="100px"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px"><img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas.gif" width="100px"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px"><img src="https://assets.holopin.io/hf2024levels/level4-sloth-hello-tea-robe-witch-eclipse.webp" width="100px">
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px">
 
 
 **THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌**
