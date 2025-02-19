@@ -61,14 +61,32 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px">
 
 ## 🤝 Connect with me:
-
-<a href="https://www.linkedin.com/in/abhirajadhikary06">
-    <img src="https://github.com/user-attachments/assets/cfa1cfb9-a37e-42fa-b63e-9e1007175686" width="40">
+<a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="40">
 </a>
-[![Hackerrank](https://img.shields.io/badge/-?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/abhirajadhikary1)
-[![Leetcode](https://img.shields.io/badge/-?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/0vz9vQHr2y/)
-[![GitHub](https://img.shields.io/badge/-?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhirajadhikary06)
-[![Devfolio](https://img.shields.io/badge/-?style=for-the-badge&logo=devfolio)](https://devfolio.co/@abhirajadhikary)
-[![Dev.to](https://img.shields.io/badge/-?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/abhirajadhikary06) 
+
+<a href="https://github.com/anikchand461">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" width="40">
+</a>
+
+<a href="https://x.com/anikchand461">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" width="40">
+</a>
+
+<a href="https://leetcode.com/u/anikchand461/">
+    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" width="40">
+</a>
+
+<a href="https://www.naukri.com/code360/profile/anikchand">
+    <img src="https://img.shields.io/badge/-Code360-0A0A0A?style=for-the-badge&logo=codeforces&logoColor=white" width="40">
+</a>
+
+<a href="https://dev.to/anikchand461">
+    <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" width="40">
+</a>
+
+<a href="https://www.geeksforgeeks.org/user/anikchand461/">
+    <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" width="40">
+</a>
 
 **THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌**
