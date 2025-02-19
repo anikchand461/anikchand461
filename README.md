@@ -63,7 +63,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ## 🤝 Connect with me:
 
 <a href="https://www.linkedin.com/in/abhirajadhikary06">
-    <img src="https://github.com/user-attachments/assets/cfa1cfb9-a37e-42fa-b63e-9e1007175686" width="20">
+    <img src="https://github.com/user-attachments/assets/cfa1cfb9-a37e-42fa-b63e-9e1007175686" width="50">
 </a>
 [![Hackerrank](https://img.shields.io/badge/-?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/abhirajadhikary1)
 [![Leetcode](https://img.shields.io/badge/-?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/0vz9vQHr2y/)
