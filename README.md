@@ -2,6 +2,13 @@
 
 Machine Learning Engineering Enthusiast | Graphic Designer
 
+![Anik Chand's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnikChand461&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnikChand461&layout=compact&theme=tokyonight)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AnikChand461&theme=dracula)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AnikChand461&theme=dracula)
+![GitHub Streak](https://streak-stats.demolab.com/?user=AnikChand461&theme=tokyonight)
+
+
 🌱 I'm currently following steps to master: Machine Learning.
 
 💬 Ask me about Python / ML / Web Dev / Designing / Anything.
