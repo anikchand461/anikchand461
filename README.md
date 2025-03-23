@@ -51,7 +51,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ## 🏅 Badges & Achievements
-<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px"><img src="[https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png](https://www.holopin.io/userbadge/cm8m2n8ai64000cjrgi2km92y)" width="100px">
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px"><img src="https://www.holopin.io/userbadge/cm8m2pb8g65310cjrkvyxnvtg" width="100px">
 
 ## 🤝 Connect with me:
 <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/">
