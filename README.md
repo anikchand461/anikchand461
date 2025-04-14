@@ -59,11 +59,11 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 </a>
 
 <a href="https://github.com/anikchand461">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" width="40">
+    <img src="https://media-hosting.imagekit.io/d6a08622f38a4525/Screenshot%202568-04-14%20at%2011.17.28%E2%80%AFPM.png?Expires=1839260956&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ahQ4LNq3v7E2V0x48SaF8bs3QIEnnJet228rWApY1PyzMilsizykwBGmMhoHQSUUmVizsuE~4jVrMDifUDKc0Zpburva-8Py6ecgcLeO8O6c-3rTxJX~Uv2IdvbdS43JmLNmoWDi19FcnO7WwEr8ZKD4edrZEW0MhI3q7BpOZc-J7zMKiT1Saut2dtLPISi2mZsSXM-wDLzN1CnEWkd8HtT2wXQiBsxsO31j836TqEL~F~9wYe4ZPQAmwQqSbBhoCGSypr90KjUuWyISwB1vcynDlKCoeeYb6Fdd0SMKMd-BjWP~zy4U-UkarDbUEDGwc~QIgZ36cGszKadZCV7PQQ__" width="60" alt="GitHub Banner">
 </a>
 
 <a href="https://x.com/anikchand461">
-    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" width="40">
+    <img src="https://media-hosting.imagekit.io/586834b0a77c4ef7/Screenshot%25202568-04-14%2520at%252011.20.39%25E2%2580%25AFPM.png?Expires=1839261129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hb~W~J1iRDCyw8dejc2eQcTSvgjFyH-Ii7-ubCGtnnCSpeUtYecGjcLuYNan7AZqjdJ4yLgDqvvpcFFjwHGpT-6oIyLtGg81z6P8lwd~t4xIxMWfCdtF7wBYnNMpXh5CnMiBl8BEAFbIiFGjbrVdAVtge9OxqaZFropRWTPx63a3jz-owG3Yz3nWdIP-5dY7ehDpqLrN9DlG0HWijumBdakStNz7egr6aM6NgBru4kPMKaq6pAinsAwJBfiBaP5eyUG0vP4kNOC5-L83njhKKWeY3gzQqUGQuwqFuCZxPU1jvR-daiUrm~rqNCz1E8K7OpQaX9tD2PMn9anyVWNUhA__" width="60" alt="Twitter Banner">
 </a>
 
 <a href="https://leetcode.com/u/anikchand461/">
