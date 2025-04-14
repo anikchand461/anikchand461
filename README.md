@@ -55,8 +55,8 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 
 ## 🤝 Connect with me:
 <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/">
-    <img src="![image](https://github.com/user-attachments/assets/41b40ef2-5293-47a8-be02-b5223a714616)
-" width="60">
+    <img src="[![image](https://github.com/user-attachments/assets/41b40ef2-5293-47a8-be02-b5223a714616)
+](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Screenshot%202568-04-14%20at%2011.02.36%E2%80%AFPM.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-04-13T17%3A43%3A50.652Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F19b203fc10744bdf%2FScreenshot%25202568-04-14%2520at%252011.02.36%25E2%2580%25AFPM.png%3FExpires%3D1839260631%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DBu6UWj7BhCFgMizFw1xkejVtlLJ6-qA~JCqaRlFR4F9mRtoKXrXGKpwwi~O7h2Xmhrz7cgR9q2PcqQNcsgZcsV000GCPtClMQni8B5h8GXY532wkImQBCGn87ZNMqbBrcZ8WFy6s~Vandbr2LGswpIhhxi8vci3jdqf2rEn5DvitTwzva5QqXmw43lGF0kO7mTjm5yEunOoHmGDfUXT2O8T2GInB7XMfpAJXcjjfkYFReGzWNqN7xAC-K3hthLlulD0woV~sWmTjYOOHrBknO01VcQR3MWvKOke8gxyiSTWlTjZwwo858oizgQT1ubGptx6AnUjoQiARzB6YJhR2fw__%22%7D)" width="60">
 </a>
 
 <a href="https://github.com/anikchand461">
