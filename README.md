@@ -63,7 +63,9 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 </a>
 
 <a href="https://x.com/anikchand461">
-    <img src="https://media-hosting.imagekit.io/586834b0a77c4ef7/Screenshot%25202568-04-14%2520at%252011.20.39%25E2%2580%25AFPM.png?Expires=1839261129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hb~W~J1iRDCyw8dejc2eQcTSvgjFyH-Ii7-ubCGtnnCSpeUtYecGjcLuYNan7AZqjdJ4yLgDqvvpcFFjwHGpT-6oIyLtGg81z6P8lwd~t4xIxMWfCdtF7wBYnNMpXh5CnMiBl8BEAFbIiFGjbrVdAVtge9OxqaZFropRWTPx63a3jz-owG3Yz3nWdIP-5dY7ehDpqLrN9DlG0HWijumBdakStNz7egr6aM6NgBru4kPMKaq6pAinsAwJBfiBaP5eyUG0vP4kNOC5-L83njhKKWeY3gzQqUGQuwqFuCZxPU1jvR-daiUrm~rqNCz1E8K7OpQaX9tD2PMn9anyVWNUhA__" width="60" alt="Twitter Banner">
+    <img src="https://media-hosting.imagekit.io/586834b0a77c4ef7/Screenshot%25202568-04-14%2520at%252011.20.39%25E2%2580%25AFPM.png?Expires=1839261129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hb~W~J1iRDCyw8dejc2eQcTSvgjFyH-Ii7-ubCGtnnCSpeUtYecGjcLuYNan7AZqjdJ4yLgDqvvpcFFjwHGpT-6oIyLtGg81z6P8lwd~t4xIxMWfCdtF7wBYnNMpXh5CnMiBl8BEAFbIiFGjbrVdAVtge9OxqaZFropRWTPx63a3jz-owG3Yz3nWdIP-5dY7ehDpqLrN9DlG0HWijumBdakStNz7egr6aM6NgBru4kPMKaq6pAinsAwJBfiBaP5eyUG0vP4kNOC5-L83njhKKWeY3gzQqUGQuwqFuCZxPU1jvR-daiUrm~rqNCz1E8K7OpQaX9tD2PMn9anyVWNUhA__" 
+         alt="X.com Banner" 
+         width="60">
 </a>
 
 <a href="https://leetcode.com/u/anikchand461/">
