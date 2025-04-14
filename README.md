@@ -56,7 +56,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ## 🤝 Connect with me:
 <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/">
     <img src="![image](https://github.com/user-attachments/assets/41b40ef2-5293-47a8-be02-b5223a714616)
-" width="40">
+" width="60">
 </a>
 
 <a href="https://github.com/anikchand461">
