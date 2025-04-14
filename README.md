@@ -55,7 +55,7 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 
 ## 🤝 Connect with me:
 <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/">
-    <img src="https://media-hosting.imagekit.io/19b203fc10744bdf/Screenshot%202568-04-14%20at%2011.02.36%E2%80%AFPM.png?Expires=1839260631&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Bu6UWj7BhCFgMizFw1xkejVtlLJ6-qA~JCqaRlFR4F9mRtoKXrXGKpwwi~O7h2Xmhrz7cgR9q2PcqQNcsgZcsV000GCPtClMQni8B5h8GXY532wkImQBCGn87ZNMqbBrcZ8WFy6s~Vandbr2LGswpIhhxi8vci3jdqf2rEn5DvitTwzva5QqXmw43lGF0kO7mTjm5yEunOoHmGDfUXT2O8T2GInB7XMfpAJXcjjfkYFReGzWNqN7xAC-K3hthLlulD0woV~sWmTjYOOHrBknO01VcQR3MWvKOke8gxyiSTWlTjZwwo858oizgQT1ubGptx6AnUjoQiARzB6YJhR2fw__" width="90" alt="LinkedIn">
+    <img src="https://media-hosting.imagekit.io/19b203fc10744bdf/Screenshot%202568-04-14%20at%2011.02.36%E2%80%AFPM.png?Expires=1839260631&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Bu6UWj7BhCFgMizFw1xkejVtlLJ6-qA~JCqaRlFR4F9mRtoKXrXGKpwwi~O7h2Xmhrz7cgR9q2PcqQNcsgZcsV000GCPtClMQni8B5h8GXY532wkImQBCGn87ZNMqbBrcZ8WFy6s~Vandbr2LGswpIhhxi8vci3jdqf2rEn5DvitTwzva5QqXmw43lGF0kO7mTjm5yEunOoHmGDfUXT2O8T2GInB7XMfpAJXcjjfkYFReGzWNqN7xAC-K3hthLlulD0woV~sWmTjYOOHrBknO01VcQR3MWvKOke8gxyiSTWlTjZwwo858oizgQT1ubGptx6AnUjoQiARzB6YJhR2fw__" width="60" alt="LinkedIn">
 </a>
 
 <a href="https://github.com/anikchand461">
