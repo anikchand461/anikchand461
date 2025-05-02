@@ -53,35 +53,48 @@ Machine Learning Engineering Enthusiast | Graphic Designer
 ## 🏅 Badges & Achievements
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px"><img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="100px" height="100px"/><img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px" height="90px"/><img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px" height="90px"/><img src="https://github.com/user-attachments/assets/c91fec2d-9740-4269-85cb-bd623578f342" width="90px" height="90px"/>
 
-## 🤝 Connect with me:
-<a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/">
-    <img src="https://media-hosting.imagekit.io/19b203fc10744bdf/Screenshot%202568-04-14%20at%2011.02.36%E2%80%AFPM.png?Expires=1839260631&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Bu6UWj7BhCFgMizFw1xkejVtlLJ6-qA~JCqaRlFR4F9mRtoKXrXGKpwwi~O7h2Xmhrz7cgR9q2PcqQNcsgZcsV000GCPtClMQni8B5h8GXY532wkImQBCGn87ZNMqbBrcZ8WFy6s~Vandbr2LGswpIhhxi8vci3jdqf2rEn5DvitTwzva5QqXmw43lGF0kO7mTjm5yEunOoHmGDfUXT2O8T2GInB7XMfpAJXcjjfkYFReGzWNqN7xAC-K3hthLlulD0woV~sWmTjYOOHrBknO01VcQR3MWvKOke8gxyiSTWlTjZwwo858oizgQT1ubGptx6AnUjoQiARzB6YJhR2fw__" width="60" alt="LinkedIn">
+## 🚀 Let's Connect!
+
+<div align="center">
+
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/" target="_blank" title="LinkedIn">
+    <img src="https://media-hosting.imagekit.io/19b203fc10744bdf/Screenshot%202568-04-14%20at%2011.02.36%E2%80%AFPM.png?Expires=1839260631&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Bu6UWj7BhCFgMizFw1xkejVtlLJ6-qA~JCqaRlFR4F9mRtoKXrXGKpwwi~O7h2Xmhrz7cgR9q2PcqQNcsgZcsV000GCPtClMQni8B5h8GXY532wkImQBCGn87ZNMqbBrcZ8WFy6s~Vandbr2LGswpIhhxi8vci3jdqf2rEn5DvitTwzva5QqXmw43lGF0kO7mTjm5yEunOoHmGDfUXT2O8T2GInB7XMfpAJXcjjfkYFReGzWNqN7xAC-K3hthLlulD0woV~sWmTjYOOHrBknO01VcQR3MWvKOke8gxyiSTWlTjZwwo858oizgQT1ubGptx6AnUjoQiARzB6YJhR2fw__" 
+         width="60" alt="LinkedIn">
 </a>
 
-<a href="https://github.com/anikchand461">
-    <img src="https://media-hosting.imagekit.io/d6a08622f38a4525/Screenshot%202568-04-14%20at%2011.17.28%E2%80%AFPM.png?Expires=1839260956&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ahQ4LNq3v7E2V0x48SaF8bs3QIEnnJet228rWApY1PyzMilsizykwBGmMhoHQSUUmVizsuE~4jVrMDifUDKc0Zpburva-8Py6ecgcLeO8O6c-3rTxJX~Uv2IdvbdS43JmLNmoWDi19FcnO7WwEr8ZKD4edrZEW0MhI3q7BpOZc-J7zMKiT1Saut2dtLPISi2mZsSXM-wDLzN1CnEWkd8HtT2wXQiBsxsO31j836TqEL~F~9wYe4ZPQAmwQqSbBhoCGSypr90KjUuWyISwB1vcynDlKCoeeYb6Fdd0SMKMd-BjWP~zy4U-UkarDbUEDGwc~QIgZ36cGszKadZCV7PQQ__" width="60" alt="GitHub Banner">
+<!-- GitHub -->
+<a href="https://github.com/anikchand461" target="_blank" title="GitHub">
+    <img src="https://media-hosting.imagekit.io/d6a08622f38a4525/Screenshot%202568-04-14%20at%2011.17.28%E2%80%AFPM.png?Expires=1839260956&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ahQ4LNq3v7E2V0x48SaF8bs3QIEnnJet228rWApY1PyzMilsizykwBGmMhoHQSUUmVizsuE~4jVrMDifUDKc0Zpburva-8Py6ecgcLeO8O6c-3rTxJX~Uv2IdvbdS43JmLNmoWDi19FcnO7WwEr8ZKD4edrZEW0MhI3q7BpOZc-J7zMKiT1Saut2dtLPISi2mZsSXM-wDLzN1CnEWkd8HtT2wXQiBsxsO31j836TqEL~F~9wYe4ZPQAmwQqSbBhoCGSypr90KjUuWyISwB1vcynDlKCoeeYb6Fdd0SMKMd-BjWP~zy4U-UkarDbUEDGwc~QIgZ36cGszKadZCV7PQQ__" 
+         width="60" alt="GitHub">
 </a>
 
-<a href="https://x.com/anikchand461">
+<!-- Twitter / X -->
+<a href="https://x.com/anikchand461" target="_blank" title="X (Twitter)">
     <img src="https://media-hosting.imagekit.io/586834b0a77c4ef7/Screenshot%25202568-04-14%2520at%252011.20.39%25E2%2580%25AFPM.png?Expires=1839261129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hb~W~J1iRDCyw8dejc2eQcTSvgjFyH-Ii7-ubCGtnnCSpeUtYecGjcLuYNan7AZqjdJ4yLgDqvvpcFFjwHGpT-6oIyLtGg81z6P8lwd~t4xIxMWfCdtF7wBYnNMpXh5CnMiBl8BEAFbIiFGjbrVdAVtge9OxqaZFropRWTPx63a3jz-owG3Yz3nWdIP-5dY7ehDpqLrN9DlG0HWijumBdakStNz7egr6aM6NgBru4kPMKaq6pAinsAwJBfiBaP5eyUG0vP4kNOC5-L83njhKKWeY3gzQqUGQuwqFuCZxPU1jvR-daiUrm~rqNCz1E8K7OpQaX9tD2PMn9anyVWNUhA__" 
-         alt="X.com Banner" 
-         width="60">
+         width="60" alt="X.com">
 </a>
 
-<a href="https://leetcode.com/u/anikchand461/">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" width="40">
+<!-- LeetCode -->
+<a href="https://leetcode.com/u/anikchand461/" target="_blank" title="LeetCode">
+    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" width="120">
 </a>
 
-<a href="https://www.naukri.com/code360/profile/anikchand">
-    <img src="https://img.shields.io/badge/-Code360-0A0A0A?style=for-the-badge&logo=codeforces&logoColor=white" width="40">
+<!-- Code360 -->
+<a href="https://www.naukri.com/code360/profile/anikchand" target="_blank" title="Code360">
+    <img src="https://img.shields.io/badge/-Code360-0A0A0A?style=for-the-badge&logo=codeforces&logoColor=white" width="120">
 </a>
 
-<a href="https://dev.to/anikchand461">
-    <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" width="40">
+<!-- Dev.to -->
+<a href="https://dev.to/anikchand461" target="_blank" title="Dev.to">
+    <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" width="100">
 </a>
 
-<a href="https://www.geeksforgeeks.org/user/anikchand461/">
-    <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" width="40">
+<!-- GeeksforGeeks -->
+<a href="https://www.geeksforgeeks.org/user/anikchand461/" target="_blank" title="GeeksforGeeks">
+    <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" width="160">
 </a>
+
+</div>
 
 **THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌**
