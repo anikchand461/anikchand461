@@ -1,6 +1,12 @@
 🔥 Hi there! I'm Anik Chand
 
-Machine Learning Engineering Enthusiast | Graphic Designer
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="1000" height="2" />
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=ML Enthusiast+|+Developer+|+Innovator+|+Designer;Open-Source+Contributor;Web+and+Software+Developer" />
+</p>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="1000" height="2" />
 
 🌱 I'm currently following steps to master: Machine Learning.
 
