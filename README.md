@@ -3,7 +3,7 @@
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="1000" height="2" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&pause=100&color=36BCF7&center=true&vCenter=true&width=600&lines=ML+Enthusiast;Designer;Open+Source+Contributor;Developer&duration=1200" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Ubuntu+Mono&pause=100&color=36BCF7&center=true&vCenter=true&width=600&lines=ML+Enthusiast;Designer;Open+Source+Contributor;Developer&duration=1000" />
 </p>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="1000" height="2" />
