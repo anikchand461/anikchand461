@@ -45,8 +45,8 @@
 
 | Project | Role | Contribution | Status |
 | :--- | :--- | :--- | :---: |
-| ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) | **Contributor** | [cite_start]Finalized `linalg/fft` deprecations to enhance type safety in ML workflows (PR #29909) [cite: 11] | ✅ |
-| ![LocalStack](https://img.shields.io/badge/LocalStack-000000?style=flat&logo=localstack&logoColor=white) | **Contributor** | [cite_start]Normalized "Reproducible ML with Cloud Pods" docs for AWS emulation (PR #268) [cite: 16] | ✅ |
+| ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) | **Contributor** | Finalized `linalg/fft` deprecations to enhance type safety in ML workflows (PR #29909) | ✅ |
+| ![LocalStack](https://img.shields.io/badge/LocalStack-000000?style=flat&logo=localstack&logoColor=white) | **Contributor** | Normalized "Reproducible ML with Cloud Pods" docs for AWS emulation (PR #268) | ✅ |
 
 ---
 
@@ -55,44 +55,52 @@
 <div align="center">
 <table border="0">
 <tr>
-<td width="400px">
+<td width="45%">
 
 #### 🔑 [Zerokey](https://github.com/anikchand461/zerokey)
 **Unified API Key Manager**
 <br>
 A security-first tool for developers to manage environment secrets without the headache.
 <br><br>
+<img src="./assets/zerokey.png" width="100%" />
+<br><br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 </td>
-<td width="400px">
+<td width="45%">
 
 #### 📹 [Video-RAG-Search](https://github.com/anikchand461/Video-RAG-Search)
 **Semantic Video Search Engine**
 <br>
-[cite_start]Transcribe YouTube audio and search via meaning using Embeddings & Vector DBs. [cite: 43]
+Transcribe YouTube audio and search via meaning using Embeddings & Vector DBs.
+<br><br>
+<img src="./assets/video-rag.png" width="100%" />
 <br><br>
 ![Whisper](https://img.shields.io/badge/Whisper-green?style=flat-square) ![Groq](https://img.shields.io/badge/Groq_LLM-orange?style=flat-square)
 
 </td>
 </tr>
 <tr>
-<td width="400px">
+<td width="45%">
 
 #### 🤖 [AKBOT](https://github.com/anikchand461/akbot)
 **AI Portfolio Assistant**
 <br>
-[cite_start]A RAG-based chatbot that answers recruiter questions about my projects using Gemini API. [cite: 36]
+A RAG-based chatbot that answers recruiter questions about my projects using Gemini API.
+<br><br>
+<img src="./assets/akbot.png" width="100%" />
 <br><br>
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
 
 </td>
-<td width="400px">
+<td width="45%">
 
 #### 🎨 [GAN Digits](https://github.com/anikchand461/GAN-Digits)
 **Generative Adversarial Network**
 <br>
-[cite_start]Generating synthetic handwritten digits with custom training loops in TensorFlow. [cite: 24, 29]
+Generating synthetic handwritten digits with custom training loops in TensorFlow.
+<br><br>
+<img src="./assets/gan.png" width="100%" />
 <br><br>
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![CV](https://img.shields.io/badge/CV-5C3EE8?style=flat-square)
 
