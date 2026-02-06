@@ -1,28 +1,30 @@
 <div align="center">
 
-# Hi there! I'm Anik Chand 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=300&section=header&text=Anik%20Chand&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Architecting%20Scalable%20AI%20%26%20ML%20Systems&descAlignY=55&descAlign=50" width="100%"/>
 
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="100%" height="2" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=A960EE&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Open+Source+Contributor+(NumPy);Building+Zerokey+%26+Next-Gen+Tools;Optimizing+Deep+Learning+Pipelines&duration=1000" />
+</a>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Machine+Learning+Engineer;Open+Source+Contributor+(NumPy);Building+Scalable+AI+Pipelines;Crafting+Smart+Solutions&duration=1000" />
+<br/>
+
+<p>
+  <a href="https://linkedin.com/in/anik-chand-3b14b12b6">
+    <img src="https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://portfolio-fawn-beta-28.vercel.app">
+    <img src="https://img.shields.io/badge/Visit-Portfolio-FF5722?style=for-the-badge&logo=framer&logoColor=white" />
+  </a>
+  <a href="mailto:anikchand461@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="100%" height="2" />
+> *"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"*
 
 <br>
 
-<p>
-  <img src="https://img.shields.io/badge/Focus-Machine%20Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Language-Python%20%7C%20C%2B%2B%20%7C%20Java-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-India-orange?style=flat-square&logo=google-maps&logoColor=white" />
-</p>
-
-> *"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"* > (A backbencher with a knack for smart solutions!)
-
-<br>
+</div>
 
 ## ⚡ The Tech Arsenal
 
