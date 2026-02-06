@@ -97,69 +97,67 @@ class AnikChand:
 
 ### 💻 Languages
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<p align="center">
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="SQL" width="65" height="65" />
 </p>
 
 ### 🤖 AI/ML & Deep Learning
 
-<p>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="65" height="65" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="XGBoost" width="65" height="65" />
 </p>
 
 ### 📊 Data Science & Analysis
 
-<p>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="65" height="65" />
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="65" height="65" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/SCIPY_2.svg" alt="SciPy" width="65" height="65" />
 </p>
 
 ### 🧠 LLM & AI Platforms
 
-<p>
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white" />
+<p align="center">
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="65" height="65" />
+  <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="Streamlit" width="65" height="65" />
+  <img src="https://www.gradio.app/_app/immutable/assets/gradio.CHB5adID.svg" alt="Gradio" width="65" height="65" />
 </p>
 
 ### 🌐 Web Development
 
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" width="65" height="65" />
 </p>
 
 ### 🛠️ Tools & DevOps
 
-<p>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<p align="center">
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
 </p>
 
 ### 💾 Databases
 
-<p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+<p align="center">
+  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="65" height="65" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original-wordmark.svg" alt="MariaDB" width="65" height="65" />
 </p>
 
 </div>
@@ -174,59 +172,105 @@ class AnikChand:
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🤖 Fake Handwritten Digits (GAN)
-<a href="https://github.com/anikchand461"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anikchand461&repo=GAN-MNIST&theme=tokyonight&hide_border=true" /></a>
 
-**Deep Learning | Generative AI**
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anikchand461&repo=GAN-MNIST&theme=tokyonight&hide_border=true" />
+</div>
+
+<br>
+
+**🎯 Deep Learning | Generative AI**
 
 ✨ Built GAN using TensorFlow/Keras  
-📊 Training visualization with GIFs  
-🎯 Synthetic digit generation  
-🔧 **Tech:** TensorFlow, Keras, NumPy
+📊 Custom Generator & Discriminator  
+🎬 Training visualization with GIFs  
+🎲 Synthetic MNIST digit generation
+
+**🔧 Stack:** TensorFlow • Keras • NumPy • Matplotlib
+
+<div align="center">
+  <a href="https://github.com/anikchand461">
+    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
 
 </td>
-<td width="50%">
 
-### 💬 AkBOT – AI Chatbot
-<a href="https://akbot.onrender.com"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anikchand461&repo=AkBOT&theme=tokyonight&hide_border=true" /></a>
+<td width="50%" valign="top">
 
-**RAG | LLM | Full Stack**
+### 💬 AkBOT – AI Portfolio Chatbot
 
-🔗 RAG-based with LangChain  
-🚀 FastAPI + Gemini API  
-🌐 Deployed on Render  
-🔧 **Tech:** FastAPI, FAISS, ChromaDB
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anikchand461&repo=AkBOT&theme=tokyonight&hide_border=true" />
+</div>
+
+<br>
+
+**🎯 RAG | LLM | Full Stack**
+
+🔗 RAG-based with LangChain & FAISS  
+🤖 Gemini API integration  
+🚀 FastAPI backend  
+🌐 Deployed on Render
+
+**🔧 Stack:** FastAPI • LangChain • ChromaDB • Gemini
+
+<div align="center">
+  <a href="https://akbot.onrender.com">
+    <img src="https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</div>
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 📊 Customer Sentiment Analysis
-<a href="https://customer-sentiment-analysis.onrender.com"><img src="https://img.shields.io/badge/🔗_Live_Demo-00C7B7?style=for-the-badge" /></a>
 
-**NLP | Machine Learning**
+<br>
+
+**🎯 NLP | Machine Learning**
 
 🎯 89.15% accuracy achieved  
 📈 Ensemble ML classifier  
-💡 TF-IDF implementation  
-🔧 **Tech:** scikit-learn, SciPy
+🔍 TF-IDF feature extraction  
+💡 Business intelligence insights
+
+**🔧 Stack:** scikit-learn • NumPy • SciPy • Pandas
+
+<div align="center">
+  <a href="https://customer-sentiment-analysis.onrender.com">
+    <img src="https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</div>
 
 </td>
-<td width="50%">
 
-### 🎥 Video-RAG-Search
-<a href="https://github.com/anikchand461"><img src="https://img.shields.io/badge/🔗_GitHub_Repo-181717?style=for-the-badge&logo=github" /></a>
+<td width="50%" valign="top">
 
-**RAG | NLP | Web**
+### 🎥 Video-RAG-Search Platform
 
-🎙️ Whisper transcription  
-🔍 Semantic search  
-💾 MariaDB storage  
-🔧 **Tech:** Flask, SentenceTransformers
+<br>
+
+**🎯 RAG | NLP | Web Development**
+
+🎙️ Whisper AI transcription  
+🔍 Semantic similarity search  
+💾 MariaDB vector storage  
+⚡ Flask web framework
+
+**🔧 Stack:** Flask • Whisper • SentenceTransformers • Groq
+
+<div align="center">
+  <a href="https://github.com/anikchand461">
+    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
 
 </td>
 </tr>
@@ -242,6 +286,8 @@ class AnikChand:
 
 <div align="center">
 
+### 🎖️ Badges
+
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px">
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px">
 <img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="100px" height="100px"/>
@@ -249,12 +295,16 @@ class AnikChand:
 <img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px" height="90px"/>
 <img src="https://github.com/user-attachments/assets/c91fec2d-9740-4269-85cb-bd623578f342" width="90px" height="90px"/>
 
+<br><br>
+
 ### 📜 Certifications
 
-| 🎓 Certificate | 🏢 Issuer | 📅 Date |
-|:--------------|:---------|:--------|
-| **Intro to Machine Learning** | Kaggle | Jun 2025 |
-| **Data Analysis** | American Express | Sep 2025 |
+| 🎓 Certificate | 🏢 Issuer | 📅 Date | 🔗 Link |
+|:--------------|:---------|:--------|:--------|
+| **Intro to Machine Learning** | Kaggle | Jun 2025 | [View Credential](https://www.kaggle.com/learn/certification/anikchand461/intro-to-machine-learning) |
+| **Data Analysis** | American Express | Sep 2025 | [View Credential](#) |
+
+**Skills Learned:** Random Forest • Model Validation • Data Analysis • Business Analytics
 
 </div>
 
@@ -265,16 +315,16 @@ class AnikChand:
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&theme=tokyonight&hide_border=true" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&count_private=true&hide_border=true&title_color=36BCF7&icon_color=36BCF7&text_color=c9d1d9&bg_color=0d1117" alt="Anik Chand github stats" /> 
+  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&hide_border=true&theme=tokyonight&background=0d1117&stroke=36BCF7&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" alt="Anik Chand streak stats"/>
 </div>
 
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&hide_border=true&title_color=36BCF7&text_color=36BCF7&bg_color=0d1117" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&bg_color=0d1117&color=36BCF7&line=36BCF7&point=FFFFFF&hide_border=true&area=true" width="100%"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
@@ -320,7 +370,7 @@ class AnikChand:
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 
-<br>
+<br><br>
 
 ### 🐍 Contribution Snake
 
