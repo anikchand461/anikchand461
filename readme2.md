@@ -1,128 +1,108 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=280&section=header&text=Anik%20Chand&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Architecting%20Intelligence%20%7C%20Open%20Source%20%7C%20ML%20Ops&descAlignY=55&descAlign=50" width="100%"/>
+# Hi there! I'm Anik Chand 👋
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=20&pause=1000&color=20C20E&center=true&vCenter=true&width=500&lines=Writing+Code+that+Writes+Code;Contributor+@+NumPy+%26+LocalStack;Building+Zerokey+API+Manager;Exploring+the+Frontiers+of+Generative+AI&duration=1000" />
-</a>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="100%" height="2" />
 
-<br/>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Lucida+Console&pause=100&color=36BCF7&center=true&vCenter=true&width=500&lines=ML+Enthusiast;Designer;Open+Source+Contributor&duration=1000" />
+</p>
 
-<a href="https://linkedin.com/in/anik-chand-3b14b12b6">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://portfolio-fawn-beta-28.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=framer&logoColor=white"/>
-</a>
-<a href="mailto:anikchand461@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://leetcode.com/u/anikchand461/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="100%" height="2" />
 
-</div>
+<br>
 
----
+🌱 **Currently Mastering:** Machine Learning  
+💬 **Ask Me About:** Python, ML, Web Dev, & Design  
+📫 **Email:** anikchand461@gmail.com  
+💼 **Portfolio:** [Visit My Portfolio](https://portfolio-fawn-beta-28.vercel.app)  
+🌍 **Languages:** English, Hindi, Bengali  
+🇮🇳 **Location:** India
 
-### ⚡ The Tech Arsenal
+<br>
 
-<div align="center">
-
-| **Core & Systems** | **AI & Data Science** | **DevOps & Cloud** |
-| :---: | :---: | :---: |
-| ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) |
-| ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) |
-| ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) | ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) |
+> *"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"* > (A backbencher with a knack for smart solutions!)
 
 </div>
 
 ---
 
-### 🏆 Open Source Impact
-
-> *Actual contributions to the libraries that power the world.*
-
-| Project | Role | Contribution | Status |
-| :--- | :--- | :--- | :---: |
-| ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) | **Contributor** | Finalized `linalg/fft` deprecations to enhance type safety in ML workflows (PR #29909) | ✅ |
-| ![LocalStack](https://img.shields.io/badge/LocalStack-000000?style=flat&logo=localstack&logoColor=white) | **Contributor** | Normalized "Reproducible ML with Cloud Pods" docs for AWS emulation (PR #268) | ✅ |
-
----
-
-### 🧪 Featured Laboratories
+## 🛠️ Skills and Expertise
 
 <div align="center">
 <table border="0">
-<tr>
-<td width="45%">
-
-#### 🔑 [Zerokey](https://github.com/anikchand461/zerokey)
-**Unified API Key Manager**
-<br>
-A security-first tool for developers to manage environment secrets without the headache.
-<br><br>
-<img src="./assets/zerokey.png" width="100%" />
-<br><br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-</td>
-<td width="45%">
-
-#### 📹 [Video-RAG-Search](https://github.com/anikchand461/Video-RAG-Search)
-**Semantic Video Search Engine**
-<br>
-Transcribe YouTube audio and search via meaning using Embeddings & Vector DBs.
-<br><br>
-<img src="./assets/video-rag.png" width="100%" />
-<br><br>
-![Whisper](https://img.shields.io/badge/Whisper-green?style=flat-square) ![Groq](https://img.shields.io/badge/Groq_LLM-orange?style=flat-square)
-
-</td>
-</tr>
-<tr>
-<td width="45%">
-
-#### 🤖 [AKBOT](https://github.com/anikchand461/akbot)
-**AI Portfolio Assistant**
-<br>
-A RAG-based chatbot that answers recruiter questions about my projects using Gemini API.
-<br><br>
-<img src="./assets/akbot.png" width="100%" />
-<br><br>
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
-
-</td>
-<td width="45%">
-
-#### 🎨 [GAN Digits](https://github.com/anikchand461/GAN-Digits)
-**Generative Adversarial Network**
-<br>
-Generating synthetic handwritten digits with custom training loops in TensorFlow.
-<br><br>
-<img src="./assets/gan.png" width="100%" />
-<br><br>
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![CV](https://img.shields.io/badge/CV-5C3EE8?style=flat-square)
-
-</td>
-</tr>
+  <tr>
+    <td align="center" width="33%">
+      <h3>Programming</h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
+    </td>
+    <td align="center" width="33%">
+      <h3>Web & Tools</h3>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /><br>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    </td>
+    <td align="center" width="33%">
+      <h3>Machine Learning</h3>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+    </td>
+  </tr>
 </table>
 </div>
 
 ---
 
-### 📊 The Data
+## 🏅 Badges & Achievements
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&theme=tokyonight&hide_border=true" height="160" />
-
+  <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px">
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px">
+  <img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="100px">
+  <img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px">
+  <img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px">
+  <img src="https://github.com/user-attachments/assets/c91fec2d-9740-4269-85cb-bd623578f342" width="90px">
+  <img src="https://github.com/user-attachments/assets/afd374dd-89d8-4257-89e6-a00025912c4c" width="120px">
 </div>
 
-<br>
+---
+
+## 🚀 Let's Connect!
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=100&section=footer&text=Let's%20Collaborate&fontSize=25&fontColor=fff&animation=fadeIn&fontAlignY=50" width="100%"/>
+
+<a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" />
+</a>
+<a href="https://github.com/anikchand461" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30" />
+</a>
+<a href="https://x.com/anikchand461" target="_blank">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="30" />
+</a>
+<a href="https://dev.to/anikchand461" target="_blank">
+  <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="30" />
+</a>
+
+<br><br>
+
+<a href="https://leetcode.com/u/anikchand461/" target="_blank">
+  <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" />
+</a>
+<a href="https://www.naukri.com/code360/profile/anikchand" target="_blank">
+  <img src="https://img.shields.io/badge/-Code360-0A0A0A?style=flat&logo=codeforces&logoColor=white" />
+</a>
+<a href="https://www.geeksforgeeks.org/user/anikchand461/" target="_blank">
+  <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=flat&logo=geeksforgeeks&logoColor=white" />
+</a>
+
+<br>
+<h3>THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌</h3>
+
 </div>
