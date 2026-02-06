@@ -1,143 +1,95 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=38&duration=4500&pause=800&color=00F0FF&center=true&vCenter=true&width=620&lines=Anik+Chand;Aspiring+Machine+Learning+Engineer;Crafting+AI+that+shapes+tomorrow;Open+Source+%7C+RAG+%7C+Generative+Models" alt="Anik Chand - ML Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&duration=4800&pause=900&color=00F0FF&center=true&vCenter=true&width=680&lines=Anik+Chand;Machine+Learning+Engineer+%F0%9F%A7%A0;Building+Intelligent+Systems;RAG+%7C+GANs+%7C+LLMs+%7C+MLOps" alt="Anik Chand – ML Engineer" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Kolkata%2C%20India-🇮🇳-blue?style=flat-square&logo=google-maps&logoColor=white" />
-  <a href="mailto:anikchand461@gmail.com"><img src="https://img.shields.io/badge/Email-anikchand461@gmail.com-red?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="tel:+919153772355"><img src="https://img.shields.io/badge/Phone-+91%209153772355-green?style=flat-square&logo=whatsapp&logoColor=white" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Hello%20World!%20I'm%20Anik&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38" alt="header wave" />
 </p>
 
-<br />
+<p align="center">
+  <a href="mailto:anikchand461@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>&ensp;
+  <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&ensp;
+  <a href="https://x.com/anikchand461"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>&ensp;
+  <a href="https://github.com/anikchand461"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>&ensp;
+  <a href="https://kaggle.com/anikchand461"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"/></a>&ensp;
+  <a href="https://portfolio-fawn-beta-28.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FF4081?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+</p>
+
+<br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&rank_icon=percentile&cache_seconds=86400" alt="Anik's GitHub Stats" width="48%" />
+  <!-- More reliable stats fork – many users switched to these in late 2025 due to main vercel issues -->
+  <img src="https://github-readme-stats-eight.vercel.app/api?username=anikchand461&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&rank_icon=percentile" alt="GitHub Stats" width="48%"/>
   &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com?user=anikchand461&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=495" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=anikchand461&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Streak" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&theme=radical&hide_border=true&langs_count=8&hide=jupyter%20notebook,tex&cache_seconds=86400" alt="Top Languages" width="58%" />
+  <img src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=anikchand461&layout=compact&theme=radical&hide_border=true&langs_count=8&hide=jupyter%20notebook,tex,html,css" alt="Top Languages" width="58%"/>
 </div>
 
-<p align="center">
-  <sub><i>If stats don't load instantly → try refreshing (common GitHub CDN/rate-limit quirk). Add &disable_animations=true if animation freezes.</i></sub>
-</p>
+<p align="center"><sub><i>Stats powered by reliable community forks • Refresh page if first load fails (GitHub CDN quirk) • Add &disable_animations=true if needed</i></sub></p>
 
-<br />
+<br/>
 
-## 🌟 About Me
+## 🚀 About Me
 
-Aspiring **Machine Learning Engineer** passionate about building scalable AI solutions.  
-Proven hands-on experience in end-to-end ML pipelines, model deployment, RAG systems, generative models, and full-stack integration.  
-Open-source contributor (NumPy, LocalStack) | Mentor | Problem-solver | Always chasing cleaner code & better accuracy.
+Passionate **ML Engineer** crafting scalable AI that solves real problems.
 
-- 🎓 B.Tech CSE @ Haldia Institute of Technology (2024–2028) | CGPA 8.59
-- 🔭 Currently exploring: **LLMs, MLOps, Transformers, Efficient Training**
-- 🌱 Learning: **Rust for ML**, **Advanced PyTorch**, **Production-grade Docker/K8s**
-- ⚡ Fun fact: I generate synthetic data faster than real coffee kicks in ☕🤖
+- 🎓 B.Tech CSE @ Haldia Institute of Technology (2024–2028) • CGPA 8.59
+- 📍 Kolkata / Siliguri, India
+- 🔭 Focused on: **RAG pipelines, Generative Models (GANs), LLM integration, MLOps**
+- 🌱 Currently leveling up: **PyTorch efficiency, Transformers, Dockerized ML, Rust for performance**
+- 🏆 NumPy contributor • LocalStack docs • Hacktoberfest • ISTE Mentor (BitsNBytes 2025)
+- ⚡ Coffee + lofi + debugging = my optimal zone ☕🎧🤖
 
-<br />
+<br/>
 
-## 🔥 Highlighted Projects
+## 🌟 Featured Projects
 
-<p align="center">
-  <table align="center" style="border:none;">
-    <tr>
-      <td align="center"><b>Fake Handwritten Digits (GAN – MNIST)</b><br/><i>Realistic synthetic digit generation</i></td>
-      <td align="center"><b>AkBOT – AI Portfolio Chatbot</b><br/><i>RAG-powered context-aware Q&A</i></td>
-    </tr>
-    <tr>
-      <td align="center">
-        <ul style="text-align:left;">
-          <li>Custom GAN with tf.GradientTape</li>
-          <li>Loss convergence GIF visualization</li>
-          <li>Data augmentation showcase</li>
-        </ul>
-        <b>Tech:</b> TensorFlow, Keras, NumPy, Matplotlib<br/>
-        <a href="https://github.com/anikchand461/fake-handwritten-digits-gan">→ GitHub</a>
-      </td>
-      <td align="center">
-        <ul style="text-align:left;">
-          <li>FastAPI + LangChain + Gemini</li>
-          <li>FAISS/Chroma vector store</li>
-          <li>Live responsive web app</li>
-        </ul>
-        <b>Tech:</b> FastAPI, LangChain, Gemini API, Render<br/>
-        <a href="YOUR_LIVE_AKBOT_LINK">→ Live</a> | <a href="https://github.com/anikchand461/akbot">GitHub</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>Customer Sentiment Segmentation</b><br/><i>89.15% accuracy ensemble classifier</i></td>
-      <td align="center"><b>Video-RAG-Search</b><br/><i>Semantic YouTube transcript search</i></td>
-    </tr>
-    <tr>
-      <td align="center">
-        <ul style="text-align:left;">
-          <li>TF-IDF + SciPy sparse matrices</li>
-          <li>Pos/Neg/Neutral segmentation</li>
-          <li>Business insights ready</li>
-        </ul>
-        <b>Tech:</b> scikit-learn, NumPy, SciPy<br/>
-        <a href="YOUR_LIVE_SENTIMENT_LINK">→ Live</a>
-      </td>
-      <td align="center">
-        <ul style="text-align:left;">
-          <li>Whisper transcription + Groq LLM</li>
-          <li>SentenceTransformers embeddings</li>
-          <li>Flask UI + caching</li>
-        </ul>
-        <b>Tech:</b> Flask, Whisper, MariaDB, Groq, yt-dlp<br/>
-        <a href="https://github.com/anikchand461/video-rag-search">→ GitHub</a>
-      </td>
-    </tr>
-  </table>
-</p>
+| Project | Highlights | Tech Stack | Link |
+|---------|------------|------------|------|
+| **Fake Handwritten Digits (GAN – MNIST)** | Custom GAN • GradientTape training • Loss GIF visualization • Realistic synthetic digits | TensorFlow • Keras • NumPy • Matplotlib | [GitHub](https://github.com/anikchand461/fake-handwritten-digits-gan) |
+| **AkBOT – AI Portfolio Chatbot** | RAG-powered Q&A • Context-aware responses • Responsive web deployment | FastAPI • LangChain • Gemini API • ChromaDB/FAISS • Render | [Live](#) \| [GitHub](https://github.com/anikchand461/akbot) |
+| **Customer Sentiment Segmentation** | 89.15% accuracy ensemble • Large-scale review classification • Business-ready insights | scikit-learn • TF-IDF • SciPy • NumPy | [Live](#) |
+| **Video-RAG-Search** | YouTube transcript semantic search • Whisper + Groq LLM • Ranking & caching UI | Flask • Whisper • SentenceTransformers • MariaDB • Groq • yt-dlp | [GitHub](https://github.com/anikchand461/video-rag-search) |
 
-<br />
+<br/>
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,fastapi,langchain,git,github,docker,linux,vscode" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,fastapi,langchain,git,github,docker,vscode,linux" /><br/><br/>
   <img src="https://skillicons.dev/icons?i=numpy,pandas,scikitlearn,opencv,transformers,huggingface,flask,mysql,postgres,html,css,js" />
 </p>
 
 **Core** — Python • Java • C++ • SQL • JavaScript  
-**ML/AI** — TensorFlow • Keras • PyTorch • scikit-learn • Hugging Face • LangChain • Transformers • OpenCV • XGBoost  
+**ML / AI** — TensorFlow • Keras • PyTorch • scikit-learn • Hugging Face • LangChain • Transformers • OpenCV • XGBoost  
 **Data** — NumPy • Pandas • Matplotlib • Seaborn • SciPy  
-**Deployment** — FastAPI • Flask • Streamlit • Gradio • Docker • MLflow  
-**Other** — Git • GitHub • Whisper • Groq • Gemini API • yt-dlp
+**Deploy / Tools** — FastAPI • Flask • Streamlit • Gradio • Docker • MLflow • Whisper • Groq • Gemini API
 
-<br />
+<br/>
 
-## 🏆 Open Source & Achievements
+## 🏅 Contributions & Badges
 
-- **NumPy** → Linalg/FFT deprecations (PR #29909) – improved ML type safety & stability
-- **LocalStack** → Enhanced Reproducible ML tutorial docs (PR #268) – merged by core team
-- Hacktoberfest 2025 contributor
-- Mentor @ BitsNBytes 2025 (ISTE HIT)
+- **NumPy** — Linalg/FFT deprecations (PR #29909) → better ML type safety & stability
+- **LocalStack** — Reproducible ML tutorial docs (PR #268) → merged by core team
+- Hacktoberfest 2025 • ISTE HIT Mentor (BitsNBytes 2025)
 
 **Certifications**  
 - Intro to Machine Learning – Kaggle (Jun 2025)  
 - Data Analysis – American Express via Unstop (Sep 2025)
 
-<br />
-
-## 🌐 Connect & Reach Out
+<br/>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&ensp;
-  <a href="https://x.com/anikchand461"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>&ensp;
-  <a href="https://github.com/anikchand461"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>&ensp;
-  <a href="https://kaggle.com/anikchand461"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>&ensp;
-  <a href="https://portfolio-fawn-beta-28.vercel.app"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <img src="https://api.visitorbadge.io/api/visitors?path=https://github.com/anikchand461&label=Profile%20Views&labelColor=111111&color=00F0FF&style=flat&pretty=true" alt="Visitors"/>
 </p>
 
 <p align="center">
-  <img src="https://api.visitorbadge.io/api/visitors?path=https://github.com/anikchand461&label=Profile%20Views&labelColor=0a0a0a&color=00F0FF&style=flat&pretty=true" alt="Visitors"/>
+  <i>Thanks for visiting! ⭐ a repo if it inspires you, or DM me for ML collabs / feedback ✌️🔥</i>
 </p>
 
 <p align="center">
-  <i>Thanks for visiting! ⭐ repos if they spark joy, or ping me for ML/AI collabs ✌️🤖</i>
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=60&section=footer&text=Keep%20Building%20the%20Future&fontSize=22&fontColor=ffffff&animation=twinkling" alt="footer wave" />
 </p>
