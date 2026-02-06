@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=300&section=header&text=Anik%20Chand&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Architecting%20Scalable%20AI%20%26%20ML%20Systems&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=A960EE&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Open+Source+Contributor+(NumPy);Building+Zerokey+%26+Next-Gen+Tools;Optimizing+Deep+Learning+Pipelines&duration=1000" />
-</a>
+# Hi there, I'm Anik Chand! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-<br/>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Open+Source+Contributor+(NumPy);Building+Zerokey+%26+Next-Gen+Tools;Architecting+Scalable+AI+Pipelines&duration=1000" />
+  </a>
+</p>
 
 <p>
   <a href="https://linkedin.com/in/anik-chand-3b14b12b6">
@@ -20,13 +22,13 @@
   </a>
 </p>
 
-> *"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"*
-
-<br>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" />
 
 </div>
 
-## ⚡ The Tech Arsenal
+---
+
+### ⚡ The Tech Arsenal
 
 <table border="0" width="100%">
   <tr>
@@ -62,77 +64,91 @@
       </div>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🗄️ Databases</h3>
-      <div align="center">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-        <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-      </div>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🛠️ Tools & DevOps</h3>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-      </div>
-    </td>
-  </tr>
 </table>
 
+---
+
+### 🏆 Open Source Impact
+
+| Project | Contribution | Status |
+| :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" width="100"/> | Finalized `linalg/fft` deprecations to enhance type safety in ML workflows (PR #29909) | ✅ |
+| <img src="https://img.shields.io/badge/LocalStack-000000?style=flat&logo=localstack&logoColor=white" width="100" /> | Normalized "Reproducible ML with Cloud Pods" docs for AWS emulation (PR #268) | ✅ |
+
+---
+
+### 🧪 Featured Laboratories
+
+<div align="center">
+<table border="0">
+<tr>
+<td width="45%">
+
+#### 🔑 [Zerokey](https://github.com/anikchand461/zerokey)
+**Unified API Key Manager**
+<br>
+A security-first tool for developers to manage environment secrets without the headache.
+<br><br>
+<img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius: 10px" />
+<br><br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+<td width="45%">
+
+#### 📹 [Video-RAG-Search](https://github.com/anikchand461/Video-RAG-Search)
+**Semantic Video Search Engine**
+<br>
+Transcribe YouTube audio and search via meaning using Embeddings & Vector DBs.
+<br><br>
+<img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius: 10px" />
+<br><br>
+![Whisper](https://img.shields.io/badge/Whisper-green?style=flat-square) ![Groq](https://img.shields.io/badge/Groq_LLM-orange?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="45%">
+
+#### 🤖 [AKBOT](https://github.com/anikchand461/akbot)
+**AI Portfolio Assistant**
+<br>
+A RAG-based chatbot that answers recruiter questions about my projects using Gemini API.
+<br><br>
+<img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius: 10px" />
+<br><br>
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
+
+</td>
+<td width="45%">
+
+#### 🎨 [GAN Digits](https://github.com/anikchand461/GAN-Digits)
+**Generative Adversarial Network**
+<br>
+Generating synthetic handwritten digits with custom training loops in TensorFlow.
+<br><br>
+<img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius: 10px" />
+<br><br>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![CV](https://img.shields.io/badge/CV-5C3EE8?style=flat-square)
+
+</td>
+</tr>
+</table>
 </div>
 
 ---
 
-## 🏅 Badges & Achievements
+### 📊 The Data
 
 <div align="center">
-  <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="100px">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100px">
-  <img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="100px">
-  <img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px">
-  <img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px">
-  <img src="https://github.com/user-attachments/assets/c91fec2d-9740-4269-85cb-bd623578f342" width="90px">
-  <img src="https://github.com/user-attachments/assets/afd374dd-89d8-4257-89e6-a00025912c4c" width="120px">
+
+<img src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="160" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="160" />
+
 </div>
 
----
-
-## 🚀 Let's Connect!
+<br>
 
 <div align="center">
-
-<a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://portfolio-fawn-beta-28.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-FF5722?style=for-the-badge&logo=framer&logoColor=white" />
-</a>
-<a href="mailto:anikchand461@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://x.com/anikchand461" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-</a>
-
-<br><br>
-
-<a href="https://leetcode.com/u/anikchand461/" target="_blank">
-  <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" />
-</a>
-<a href="https://www.naukri.com/code360/profile/anikchand" target="_blank">
-  <img src="https://img.shields.io/badge/-Code360-0A0A0A?style=flat&logo=codeforces&logoColor=white" />
-</a>
-<a href="https://www.geeksforgeeks.org/user/anikchand461/" target="_blank">
-  <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=flat&logo=geeksforgeeks&logoColor=white" />
-</a>
-<a href="https://dev.to/anikchand461" target="_blank">
-  <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=flat&logo=dev.to&logoColor=white" />
-</a>
-
-<br><br>
-<h3>THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌</h3>
-
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" />
 </div>
