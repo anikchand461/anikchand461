@@ -119,17 +119,6 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph"/>
-
-</div>
-
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ---
