@@ -5,56 +5,81 @@
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="100%" height="2" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Lucida+Console&pause=100&color=36BCF7&center=true&vCenter=true&width=500&lines=ML+Enthusiast;Designer;Open+Source+Contributor&duration=1000" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Machine+Learning+Engineer;Open+Source+Contributor+(NumPy);Building+Scalable+AI+Pipelines;Crafting+Smart+Solutions&duration=1000" />
+  </a>
 </p>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="100%" height="2" />
 
 <br>
 
-🌱 **Currently Mastering:** Machine Learning  
-💬 **Ask Me About:** Python, ML, Web Dev, & Design  
-📫 **Email:** anikchand461@gmail.com  
-💼 **Portfolio:** [Visit My Portfolio](https://portfolio-fawn-beta-28.vercel.app)  
-🌍 **Languages:** English, Hindi, Bengali  
-🇮🇳 **Location:** India
-
-<br>
+<p>
+  <img src="https://img.shields.io/badge/Focus-Machine%20Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Language-Python%20%7C%20C%2B%2B%20%7C%20Java-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-India-orange?style=flat-square&logo=google-maps&logoColor=white" />
+</p>
 
 > *"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"* > (A backbencher with a knack for smart solutions!)
 
-</div>
+<br>
 
----
+## ⚡ The Tech Arsenal
 
-## 🛠️ Skills and Expertise
-
-<div align="center">
-<table border="0">
+<table border="0" width="100%">
   <tr>
-    <td align="center" width="33%">
-      <h3>Programming</h3>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
+    <td width="50%" valign="top">
+      <h3 align="center">🧠 AI & Machine Learning</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
+        <br>
+        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+        <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+        <br>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+      </div>
     </td>
-    <td align="center" width="33%">
-      <h3>Web & Tools</h3>
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /><br>
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    <td width="50%" valign="top">
+      <h3 align="center">💻 Languages & Backend</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+        <br>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gradio-FD6F00?style=for-the-badge&logo=gradio&logoColor=white" />
+        <br>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      </div>
     </td>
-    <td align="center" width="33%">
-      <h3>Machine Learning</h3>
-      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🗄️ Databases</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🛠️ Tools & DevOps</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+      </div>
     </td>
   </tr>
 </table>
+
 </div>
 
 ---
@@ -78,16 +103,16 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/anik-chand-3b14b12b6/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" />
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://github.com/anikchand461" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30" />
+<a href="https://portfolio-fawn-beta-28.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-FF5722?style=for-the-badge&logo=framer&logoColor=white" />
+</a>
+<a href="mailto:anikchand461@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://x.com/anikchand461" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="30" />
-</a>
-<a href="https://dev.to/anikchand461" target="_blank">
-  <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="30" />
+  <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
 </a>
 
 <br><br>
@@ -101,8 +126,11 @@
 <a href="https://www.geeksforgeeks.org/user/anikchand461/" target="_blank">
   <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=flat&logo=geeksforgeeks&logoColor=white" />
 </a>
+<a href="https://dev.to/anikchand461" target="_blank">
+  <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=flat&logo=dev.to&logoColor=white" />
+</a>
 
-<br>
+<br><br>
 <h3>THANK YOU FOR VISITING! DO FOLLOW AND STAY CONNECTED 🙌</h3>
 
 </div>
