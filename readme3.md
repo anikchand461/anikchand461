@@ -9,14 +9,14 @@
 ### `> whoami`
 
 ```yaml
-name     : Anik Chand
-role     : ML Enthusiast & Developer
-location : India 🇮🇳
-status   : Mastering Machine Learning 🧠
-vibe     : Backbencher. Smart solutions. ⚡
-langs    : English · Hindi · Bengali
-email    : anikchand461@gmail.com
-web      : anikchand.vercel.app
+name: Anik Chand
+role: ML Enthusiast & Developer
+location: India 🇮🇳
+status: Mastering Machine Learning 🧠
+vibe: Backbencher. Smart solutions. ⚡
+langs: English · Hindi · Bengali
+email: anikchand461@gmail.com
+web: anikchand.vercel.app
 ```
 
 ### `> skills --list`
@@ -71,6 +71,9 @@ stack = {
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
 <img src="./assets/50days-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="90px" height="90px" title="Pull Shark" />
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="90px" height="90px" title="Pair Extraordinaire" />
+<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="90px" height="90px" title="YOLO" />
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quick-draw-default.png" width="90px" height="90px" title="Quick Draw" />
 <img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="90px" height="90px" title="Astro Voyager" />
 <img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px" height="90px" title="Hacktoberfest" />
 <img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px" height="90px" title="Google Solution Challenge" />
@@ -122,7 +125,7 @@ stack = {
 
 <br/>
 
-*"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"*
+_"Efficiency + Innovation + Adaptability + Analytical Thinking = Who I Am"_
 
 <br/>
 
