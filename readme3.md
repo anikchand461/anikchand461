@@ -2,46 +2,62 @@
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="55%" valign="top">
+---
 
-### `> whoami`
+## 👋 About Me
 
-```yaml
-name: Anik Chand
-role: ML Enthusiast & Developer
-location: India 🇮🇳
-status: Mastering Machine Learning 🧠
-vibe: Backbencher. Smart solutions. ⚡
-langs: English · Hindi · Bengali
-email: anikchand461@gmail.com
-web: anikchand.vercel.app
-```
+> Backbencher from India 🇮🇳 who builds smart solutions with code.
+> Currently mastering Machine Learning 🧠 — turning data into decisions, one model at a time.
 
-### `> skills --list`
+---
 
-```python
-stack = {
-  "languages" : ["Python", "Java", "C++", "C"],
-  "web"       : ["HTML5", "CSS3", "JavaScript"],
-  "ml_libs"   : ["Scikit-Learn", "NumPy",
-                 "Pandas", "Matplotlib"],
-  "database"  : ["MySQL"],
-  "tools"     : ["Git", "GitHub", "VS Code"]
-}
-```
+## 🛠️ Skills
 
-</td>
-<td width="45%" valign="top" align="center">
+### 💻 Languages
 
-<img src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github" width="100%"/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&hide_border=true&background=00000000&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="100%"/>
+### 🌐 Web
 
-</td>
-</tr>
-</table>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### 🤖 ML & Data
+
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+
+### 🗄️ Database & Tools
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github&include_all_commits=true&count_private=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+
+<br/>
+
+<img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&hide_border=true&background=00000000&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" />
+
+<br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area_color=58a6ff&area=true&hide_border=true" />
+
+</div>
 
 ---
 
