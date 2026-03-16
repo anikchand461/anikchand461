@@ -66,8 +66,8 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F0C040&icon_color=F0C040&text_color=e2d9c0&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=F0C040&text_color=e2d9c0" />
+<img height="180em" src="https://github-readme-stats-swart-eta-25.vercel.app/api?username=anikchand461&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F0C040&icon_color=F0C040&text_color=e2d9c0&include_all_commits=true&count_private=true" />
+<img height="180em" src="https://github-readme-stats-swart-eta-25.vercel.app/api/top-langs/?username=anikchand461&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=F0C040&text_color=e2d9c0" />
 
 </div>
 
