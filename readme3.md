@@ -88,32 +88,34 @@ stack = {
 ### 🌐 Find Me Everywhere
 
 <div align="center">
+
 <table>
   <tr>
-    <td align="center"><a href="https://leetcode.com/u/anikchand461/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a></td>
-    <td align="center"><a href="https://codeforces.com/profile/anikchand461"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a></td>
-    <td align="center"><a href="https://www.codechef.com/users/anikchand461"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /></a></td>
-    <td align="center"><a href="https://atcoder.jp/users/anikchand461"><img src="https://img.shields.io/badge/AtCoder-000000?style=for-the-badge&logo=atcoder&logoColor=white" /></a></td>
+    <td align="center"><a href="https://leetcode.com/u/anikchand461/"><img src="./assets/socials/leetcode.png" width="50px" height="50px" /><br/><sub>LeetCode</sub></a></td>
+    <td align="center"><a href="https://codeforces.com/profile/anikchand461"><img src="./assets/socials/codeforces.png" width="50px" height="50px" /><br/><sub>Codeforces</sub></a></td>
+    <td align="center"><a href="https://www.codechef.com/users/anikchand461"><img src="./assets/socials/codechef.png" width="50px" height="50px" /><br/><sub>CodeChef</sub></a></td>
+    <td align="center"><a href="https://atcoder.jp/users/anikchand461"><img src="./assets/socials/atcoder.png" width="50px" height="50px" /><br/><sub>AtCoder</sub></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.hackerrank.com/anikchand461"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" /></a></td>
-    <td align="center"><a href="https://www.naukri.com/code360/profile/anikchand"><img src="https://img.shields.io/badge/Code360-F7841E?style=for-the-badge&logo=codeforces&logoColor=white" /></a></td>
-    <td align="center"><a href="https://www.interviewbit.com/profile/anik-chand/"><img src="https://img.shields.io/badge/InterviewBit-007BFF?style=for-the-badge&logo=bitbucket&logoColor=white" /></a></td>
-    <td align="center"><a href="https://www.kaggle.com/anikchand"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a></td>
+    <td align="center"><a href="https://www.hackerrank.com/anikchand461"><img src="./assets/socials/hackerrank.png" width="50px" height="50px" /><br/><sub>HackerRank</sub></a></td>
+    <td align="center"><a href="https://www.naukri.com/code360/profile/anikchand"><img src="./assets/socials/code360.png" width="50px" height="50px" /><br/><sub>Code360</sub></a></td>
+    <td align="center"><a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="50px" height="50px" /><br/><sub>InterviewBit</sub></a></td>
+    <td align="center"><a href="https://www.kaggle.com/anikchand"><img src="./assets/socials/kaggle.png" width="50px" height="50px" /><br/><sub>Kaggle</sub></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/anikchand461"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a></td>
-    <td align="center"><a href="https://gitlab.com/anikchand461"><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" /></a></td>
-    <td align="center"><a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="https://img.shields.io/badge/GFG-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" /></a></td>
-    <td align="center"><a href="https://dev.to/anikchand461"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/anikchand461"><img src="./assets/socials/github.png" width="50px" height="50px" /><br/><sub>GitHub</sub></a></td>
+    <td align="center"><a href="https://gitlab.com/anikchand461"><img src="./assets/socials/gitlab.png" width="50px" height="50px" /><br/><sub>GitLab</sub></a></td>
+    <td align="center"><a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="./assets/socials/gfg.png" width="50px" height="50px" /><br/><sub>GeeksforGeeks</sub></a></td>
+    <td align="center"><a href="https://dev.to/anikchand461"><img src="./assets/socials/devto.png" width="50px" height="50px" /><br/><sub>Dev.to</sub></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://codolio.com/profile/anikchand461"><img src="https://img.shields.io/badge/Codolio-6C47FF?style=for-the-badge&logo=codeium&logoColor=white" /></a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/anikchand461/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
-    <td align="center"><a href="https://x.com/anikchand461"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a></td>
-    <td align="center"><a href="https://anikchand.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FF4088?style=for-the-badge&logo=vercel&logoColor=white" /></a></td>
+    <td align="center"><a href="https://codolio.com/profile/anikchand461"><img src="./assets/socials/codolio.png" width="50px" height="50px" /><br/><sub>Codolio</sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/anikchand461/"><img src="./assets/socials/linkedin.png" width="50px" height="50px" /><br/><sub>LinkedIn</sub></a></td>
+    <td align="center"><a href="https://x.com/anikchand461"><img src="./assets/socials/x.png" width="50px" height="50px" /><br/><sub>X / Twitter</sub></a></td>
+    <td align="center"><a href="https://anikchand.vercel.app"><img src="./assets/socials/portfolio.png" width="50px" height="50px" /><br/><sub>Portfolio</sub></a></td>
   </tr>
 </table>
+
 </div>
 
 ---
