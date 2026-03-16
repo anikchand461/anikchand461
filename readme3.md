@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=12,20,24&height=180&section=header&text=Anik%20Chand&fontSize=70&fontColor=ffffff&fontAlignY=55&desc=ML%20%E2%80%A2%20Web%20Dev%20%E2%80%A2%20Designer%20%E2%80%A2%20Open%20Source&descSize=16&descAlignY=78&descColor=aaaaaa&animation=scaleIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Anik%20Chand&fontSize=72&fontColor=ffffff&fontAlignY=40&desc=ML%20%E2%80%A2%20Web%20Dev%20%E2%80%A2%20Designer%20%E2%80%A2%20Open%20Source&descSize=17&descAlignY=62&descColor=ffffffaa&animation=fadeIn" />
 
 <br/>
 
