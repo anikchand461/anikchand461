@@ -78,12 +78,6 @@
 
 ---
 
-### 📊 Most Used Languages
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="45%" />
-
----
-
 ### 📈 Activity
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area_color=58a6ff&area=true&hide_border=true" />
