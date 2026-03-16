@@ -66,13 +66,15 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=36BCF7&icon_color=36BCF7&text_color=c9d1d9" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anikchand461&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F0C040&icon_color=F0C040&text_color=e2d9c0&include_all_commits=true&count_private=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikchand461&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=F0C040&text_color=e2d9c0" />
 
 </div>
 
 <div align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&theme=tokyonight&hide_border=true&background=0d1117&stroke=36BCF7&ring=36BCF7&fire=FF6B6B&currStreakLabel=36BCF7" />
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&hide_border=true&background=0d1117&stroke=F0C040&ring=F0C040&fire=FFA500&currStreakLabel=F0C040&sideLabels=e2d9c0&dates=8b8070" />
+
 </div>
 
 ---
