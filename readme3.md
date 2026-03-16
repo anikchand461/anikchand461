@@ -67,19 +67,19 @@ stack = {
 
 <div align="center">
 
-<img src="./assets/lc-100-2025.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
-<img src="./assets/lc-50-2024.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
-<img src="./assets/lc-50-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
-<img src="./assets/pull-shark.png" width="90px" height="90px" title="Pull Shark" />
-<img src="./assets/pair-extraordinaire.png" width="90px" height="90px" title="Pair Extraordinaire" />
-<img src="./assets/yolo.png" width="90px" height="90px" title="YOLO" />
-<img src="./assets/quick-draw.png" width="90px" height="90px" title="Quick Draw" />
-<img src="./assets/astro-voyager.png" width="90px" height="90px" title="Astro Voyager" />
-<img src="./assets/hacktoberfest.png" width="90px" height="90px" title="Hacktoberfest" />
-<img src="./assets/google-solution.png" width="90px" height="90px" title="Google Solution Challenge" />
-<img src="./assets/badge1.png" width="90px" height="90px" title="Badge" />
-<img src="./assets/ssoc.png" width="90px" height="90px" title="Social Summer of Code" />
-<img src="./assets/hactober-hactoberfest.png" width="90px" height="90px" title="Social Summer of Code" />
+<img src="/assets/badges/lc-100-2025.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
+<img src="/assets/badges/lc-50-2024.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
+<img src="/assets/badges/lc-50-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
+<img src="/assets/badges/pull-shark.png" width="90px" height="90px" title="Pull Shark" />
+<img src="/assets/badges/pair-extraordinaire.png" width="90px" height="90px" title="Pair Extraordinaire" />
+<img src="/assets/badges/yolo.png" width="90px" height="90px" title="YOLO" />
+<img src="/assets/badges/quick-draw.png" width="90px" height="90px" title="Quick Draw" />
+<img src="/assets/badges/astro-voyager.png" width="90px" height="90px" title="Astro Voyager" />
+<img src="/assets/badges/hacktoberfest.png" width="90px" height="90px" title="Hacktoberfest" />
+<img src="/assets/badges/google-solution.png" width="90px" height="90px" title="Google Solution Challenge" />
+<img src="/assets/badges/badge1.png" width="90px" height="90px" title="Badge" />
+<img src="/assets/badges/ssoc.png" width="90px" height="90px" title="Social Summer of Code" />
+<img src="/assets/badges/hactober-hactoberfest.png" width="90px" height="90px" title="Social Summer of Code" />
 
 </div>
 
