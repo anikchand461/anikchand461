@@ -73,7 +73,7 @@
 
 <div align="center">
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&hide_border=true&background=0d1117&stroke=F0C040&ring=F0C040&fire=FFA500&currStreakLabel=F0C040&sideLabels=e2d9c0&dates=8b8070" />
+<img width="70%" src="https://streak-stats.demolab.com/?user=anikchand461&hide_border=true&background=0d1117&stroke=F0C040&ring=F0C040&fire=FFA500&currStreakLabel=F0C040&sideLabels=e2d9c0&dates=8b8070" />
 
 </div>
 
