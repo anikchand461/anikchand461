@@ -67,18 +67,19 @@ stack = {
 
 <div align="center">
 
-<img src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
-<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
-<img src="./assets/50days-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="90px" height="90px" title="Pull Shark" />
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="90px" height="90px" title="Pair Extraordinaire" />
-<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="90px" height="90px" title="YOLO" />
-<img src="https://github.githubassets.com/images/modules/profile/achievements/quick-draw-default.png" width="90px" height="90px" title="Quick Draw" />
-<img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="90px" height="90px" title="Astro Voyager" />
-<img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px" height="90px" title="Hacktoberfest" />
-<img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px" height="90px" title="Google Solution Challenge" />
-<img src="https://github.com/user-attachments/assets/c91fec2d-9740-4269-85cb-bd623578f342" width="90px" height="90px" title="Badge" />
-<img src="https://github.com/user-attachments/assets/afd374dd-89d8-4257-89e6-a00025912c4c" width="90px" height="90px" title="Social Summer of Code" />
+<img src="./assets/lc-100-2025.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
+<img src="./assets/lc-50-2024.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
+<img src="./assets/lc-50-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
+<img src="./assets/pull-shark.png" width="90px" height="90px" title="Pull Shark" />
+<img src="./assets/pair-extraordinaire.png" width="90px" height="90px" title="Pair Extraordinaire" />
+<img src="./assets/yolo.png" width="90px" height="90px" title="YOLO" />
+<img src="./assets/quick-draw.png" width="90px" height="90px" title="Quick Draw" />
+<img src="./assets/astro-voyager.png" width="90px" height="90px" title="Astro Voyager" />
+<img src="./assets/hacktoberfest.png" width="90px" height="90px" title="Hacktoberfest" />
+<img src="./assets/google-solution.png" width="90px" height="90px" title="Google Solution Challenge" />
+<img src="./assets/badge1.png" width="90px" height="90px" title="Badge" />
+<img src="./assets/ssoc.png" width="90px" height="90px" title="Social Summer of Code" />
+<img src="./assets/hactober-hactoberfest.png" width="90px" height="90px" title="Social Summer of Code" />
 
 </div>
 
