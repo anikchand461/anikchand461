@@ -69,6 +69,7 @@ stack = {
 
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
+<img src="./assets/50days-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="90px" height="90px" title="Pull Shark" />
 <img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="90px" height="90px" title="Astro Voyager" />
 <img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px" height="90px" title="Hacktoberfest" />
