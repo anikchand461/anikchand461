@@ -106,6 +106,7 @@ stack = {
 <a href="https://atcoder.jp/users/anikchand461"><img src="./assets/socials/atcoder.png" width="90px" height="90px" /></a>
 <a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="90px" height="90px" /></a>
 <a href="https://devfolio.co/@anikchand461"><img src="./assets/socials/devfolio.png" width="90px" height="90px" /></a>
+<a href="https://www.youtube.com/@ZenXcode"><img src="./assets/socials/youtube.png" width="90px" height="90px" /></a>
 
 ## </div>
 
