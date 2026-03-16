@@ -70,10 +70,6 @@
 
 <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=anikchand461&hide_border=true&background=00000000&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" />
 
-<br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area_color=58a6ff&area=true&hide_border=true" />
-
 </div>
 
 ---
