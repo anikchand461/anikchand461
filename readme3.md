@@ -67,20 +67,14 @@ stack = {
 
 <div align="center">
 
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="90px" height="90px" title="Pull Shark" />
 <img src="https://github.com/user-attachments/assets/320a99b1-61b7-44f7-9648-8e0c4a316fc6" width="90px" height="90px" title="Astro Voyager" />
 <img src="https://github.com/user-attachments/assets/0d73d506-ab06-4a38-a3fa-f25ab0cbaa30" width="90px" height="90px" title="Hacktoberfest" />
 <img src="https://github.com/user-attachments/assets/cae3f068-7dd5-4edc-928b-70891716579d" width="90px" height="90px" title="Google Solution Challenge" />
 <img src="https://github.com/user-attachments/assets/c91fec2d-9740-4269-85cb-bd623578f342" width="90px" height="90px" title="Badge" />
 <img src="https://github.com/user-attachments/assets/afd374dd-89d8-4257-89e6-a00025912c4c" width="90px" height="90px" title="Social Summer of Code" />
-
-<br/><br/>
-
-<img src="https://leetcode-badge-showcase.vercel.app/api?username=anikchand461&animated=true&border=no-border" alt="LeetCode Badges" />
-
-<br/>
-
-[![@anikchand461's Holopin board](https://holopin.io/api/user/board?user=anikchand461)](https://holopin.io/@anikchand461)
 
 </div>
 
