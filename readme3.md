@@ -83,12 +83,6 @@
 
 ---
 
-### 🏆 Trophies
-
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=anikchand461&theme=algolia&no-frame=true&column=8&margin-w=4&margin-h=4" />
-
----
-
 ### 🏅 Badges & Achievements
 
 <div align="center">
