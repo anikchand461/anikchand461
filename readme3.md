@@ -8,6 +8,7 @@
 
 > Backbencher from India 🇮🇳 who builds smart solutions with code.
 > Currently mastering Machine Learning 🧠 — turning data into decisions, one model at a time.
+> Know more about me **[here](https://anikchand.vercel.app)**
 
 ---
 
