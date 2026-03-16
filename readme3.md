@@ -91,28 +91,28 @@ stack = {
 
 <table>
   <tr>
-    <td align="center"><a href="https://leetcode.com/u/anikchand461/"><img src="./assets/socials/leetcode.png" width="50px" height="50px" /><br/><sub>LeetCode</sub></a></td>
-    <td align="center"><a href="https://codeforces.com/profile/anikchand461"><img src="./assets/socials/codeforces.png" width="50px" height="50px" /><br/><sub>Codeforces</sub></a></td>
-    <td align="center"><a href="https://www.codechef.com/users/anikchand461"><img src="./assets/socials/codechef.png" width="50px" height="50px" /><br/><sub>CodeChef</sub></a></td>
-    <td align="center"><a href="https://atcoder.jp/users/anikchand461"><img src="./assets/socials/atcoder.png" width="50px" height="50px" /><br/><sub>AtCoder</sub></a></td>
+    <td align="center"><a href="https://leetcode.com/u/anikchand461/"><img src="./assets/socials/leetcode.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://codeforces.com/profile/anikchand461"><img src="./assets/socials/codeforces.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://www.codechef.com/users/anikchand461"><img src="./assets/socials/codechef.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://atcoder.jp/users/anikchand461"><img src="./assets/socials/atcoder.png" width="50px" height="50px" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.hackerrank.com/anikchand461"><img src="./assets/socials/hackerrank.png" width="50px" height="50px" /><br/><sub>HackerRank</sub></a></td>
-    <td align="center"><a href="https://www.naukri.com/code360/profile/anikchand"><img src="./assets/socials/code360.png" width="50px" height="50px" /><br/><sub>Code360</sub></a></td>
-    <td align="center"><a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="50px" height="50px" /><br/><sub>InterviewBit</sub></a></td>
-    <td align="center"><a href="https://www.kaggle.com/anikchand"><img src="./assets/socials/kaggle.png" width="50px" height="50px" /><br/><sub>Kaggle</sub></a></td>
+    <td align="center"><a href="https://www.hackerrank.com/anikchand461"><img src="./assets/socials/hackerrank.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://www.naukri.com/code360/profile/anikchand"><img src="./assets/socials/code360.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://www.kaggle.com/anikchand"><img src="./assets/socials/kaggle.png" width="50px" height="50px" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/anikchand461"><img src="./assets/socials/github.png" width="50px" height="50px" /><br/><sub>GitHub</sub></a></td>
-    <td align="center"><a href="https://gitlab.com/anikchand461"><img src="./assets/socials/gitlab.png" width="50px" height="50px" /><br/><sub>GitLab</sub></a></td>
-    <td align="center"><a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="./assets/socials/gfg.png" width="50px" height="50px" /><br/><sub>GeeksforGeeks</sub></a></td>
-    <td align="center"><a href="https://dev.to/anikchand461"><img src="./assets/socials/devto.png" width="50px" height="50px" /><br/><sub>Dev.to</sub></a></td>
+    <td align="center"><a href="https://github.com/anikchand461"><img src="./assets/socials/github.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://gitlab.com/anikchand461"><img src="./assets/socials/gitlab.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="./assets/socials/gfg.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://dev.to/anikchand461"><img src="./assets/socials/devto.png" width="50px" height="50px" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://codolio.com/profile/anikchand461"><img src="./assets/socials/codolio.png" width="50px" height="50px" /><br/><sub>Codolio</sub></a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/anikchand461/"><img src="./assets/socials/linkedin.png" width="50px" height="50px" /><br/><sub>LinkedIn</sub></a></td>
-    <td align="center"><a href="https://x.com/anikchand461"><img src="./assets/socials/x.png" width="50px" height="50px" /><br/><sub>X / Twitter</sub></a></td>
-    <td align="center"><a href="https://anikchand.vercel.app"><img src="./assets/socials/portfolio.png" width="50px" height="50px" /><br/><sub>Portfolio</sub></a></td>
+    <td align="center"><a href="https://codolio.com/profile/anikchand461"><img src="./assets/socials/codolio.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/anikchand461/"><img src="./assets/socials/linkedin.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://x.com/anikchand461"><img src="./assets/socials/x.png" width="50px" height="50px" /></a></td>
+    <td align="center"><a href="https://anikchand.vercel.app"><img src="./assets/socials/portfolio.png" width="50px" height="50px" /></a></td>
   </tr>
 </table>
 
