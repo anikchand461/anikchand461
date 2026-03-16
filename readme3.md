@@ -89,36 +89,24 @@ stack = {
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center"><a href="https://leetcode.com/u/anikchand461/"><img src="./assets/socials/leetcode.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://codeforces.com/profile/anikchand461"><img src="./assets/socials/codeforces.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://www.codechef.com/users/anikchand461"><img src="./assets/socials/codechef.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://atcoder.jp/users/anikchand461"><img src="./assets/socials/atcoder.png" width="100px" height="100px" /></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://www.hackerrank.com/anikchand461"><img src="./assets/socials/hackerrank.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://www.naukri.com/code360/profile/anikchand"><img src="./assets/socials/code360.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://www.kaggle.com/anikchand"><img src="./assets/socials/kaggle.png" width="100px" height="100px" /></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/anikchand461"><img src="./assets/socials/github.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://gitlab.com/anikchand461"><img src="./assets/socials/gitlab.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="./assets/socials/gfg.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://dev.to/anikchand461"><img src="./assets/socials/devto.png" width="100px" height="100px" /></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://codolio.com/profile/anikchand461"><img src="./assets/socials/codolio.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/anikchand461/"><img src="./assets/socials/linkedin.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://x.com/anikchand461"><img src="./assets/socials/x.png" width="100px" height="100px" /></a></td>
-    <td align="center"><a href="https://anikchand.vercel.app"><img src="./assets/socials/portfolio.png" width="100px" height="100px" /></a></td>
-  </tr>
-</table>
+<a href="https://leetcode.com/u/anikchand461/"><img src="./assets/socials/leetcode.png" width="90px" height="90px" /></a>
+<a href="https://codeforces.com/profile/anikchand461"><img src="./assets/socials/codeforces.png" width="90px" height="90px" /></a>
+<a href="https://www.codechef.com/users/anikchand461"><img src="./assets/socials/codechef.png" width="90px" height="90px" /></a>
+<a href="https://atcoder.jp/users/anikchand461"><img src="./assets/socials/atcoder.png" width="90px" height="90px" /></a>
+<a href="https://www.hackerrank.com/anikchand461"><img src="./assets/socials/hackerrank.png" width="90px" height="90px" /></a>
+<a href="https://www.naukri.com/code360/profile/anikchand"><img src="./assets/socials/code360.png" width="90px" height="90px" /></a>
+<a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="90px" height="90px" /></a>
+<a href="https://www.kaggle.com/anikchand"><img src="./assets/socials/kaggle.png" width="90px" height="90px" /></a>
+<a href="https://github.com/anikchand461"><img src="./assets/socials/github.png" width="90px" height="90px" /></a>
+<a href="https://gitlab.com/anikchand461"><img src="./assets/socials/gitlab.png" width="90px" height="90px" /></a>
+<a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="./assets/socials/gfg.png" width="90px" height="90px" /></a>
+<a href="https://dev.to/anikchand461"><img src="./assets/socials/devto.png" width="90px" height="90px" /></a>
+<a href="https://codolio.com/profile/anikchand461"><img src="./assets/socials/codolio.png" width="90px" height="90px" /></a>
+<a href="https://www.linkedin.com/in/anikchand461/"><img src="./assets/socials/linkedin.png" width="90px" height="90px" /></a>
+<a href="https://x.com/anikchand461"><img src="./assets/socials/x.png" width="90px" height="90px" /></a>
+<a href="https://anikchand.vercel.app"><img src="./assets/socials/portfolio.png" width="90px" height="90px" /></a>
 
-</div>
-
----
+## </div>
 
 <div align="center">
 
