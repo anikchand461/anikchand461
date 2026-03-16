@@ -62,34 +62,35 @@ stack = {
 <img width="100%" src="https://github-profile-trophy.vercel.app/?username=anikchand461&theme=algolia&no-frame=true&column=8&margin-w=4&margin-h=4" />
 
 ---
-
 ### 🌐 Find Me Everywhere
 
 <div align="center">
-
-<!-- Row 1 – Coding Profiles -->
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/anikchand461/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/anikchand461)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/anikchand461)
-[![AtCoder](https://img.shields.io/badge/AtCoder-000000?style=flat-square&logo=atcoder&logoColor=white)](https://atcoder.jp/users/anikchand461)
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/anikchand461)
-[![Code360](https://img.shields.io/badge/Code360-F7841E?style=flat-square&logo=codeforces&logoColor=white)](https://www.naukri.com/code360/profile/anikchand)
-[![InterviewBit](https://img.shields.io/badge/InterviewBit-blue?style=flat-square&logo=bitbucket&logoColor=white)](https://www.interviewbit.com/profile/anik-chand/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/anikchand)
-
-<!-- Row 2 – Dev Profiles -->
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anikchand461)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/anikchand461)
-[![GeeksforGeeks](https://img.shields.io/badge/GFG-0F9D58?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/anikchand461/)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/anikchand461)
-[![Codolio](https://img.shields.io/badge/Codolio-6C47FF?style=flat-square&logo=codeium&logoColor=white)](https://codolio.com/profile/anikchand461)
-
-<!-- Row 3 – Social & Portfolio -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anikchand461/)
-[![Twitter / X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/anikchand461)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF4088?style=flat-square&logo=vercel&logoColor=white)](https://anikchand.vercel.app)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:anikchand461@gmail.com)
-
+<table>
+  <tr>
+    <td align="center"><a href="https://leetcode.com/u/anikchand461/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a></td>
+    <td align="center"><a href="https://codeforces.com/profile/anikchand461"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a></td>
+    <td align="center"><a href="https://www.codechef.com/users/anikchand461"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /></a></td>
+    <td align="center"><a href="https://atcoder.jp/users/anikchand461"><img src="https://img.shields.io/badge/AtCoder-000000?style=for-the-badge&logo=atcoder&logoColor=white" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.hackerrank.com/anikchand461"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" /></a></td>
+    <td align="center"><a href="https://www.naukri.com/code360/profile/anikchand"><img src="https://img.shields.io/badge/Code360-F7841E?style=for-the-badge&logo=codeforces&logoColor=white" /></a></td>
+    <td align="center"><a href="https://www.interviewbit.com/profile/anik-chand/"><img src="https://img.shields.io/badge/InterviewBit-007BFF?style=for-the-badge&logo=bitbucket&logoColor=white" /></a></td>
+    <td align="center"><a href="https://www.kaggle.com/anikchand"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/anikchand461"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://gitlab.com/anikchand461"><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" /></a></td>
+    <td align="center"><a href="https://www.geeksforgeeks.org/user/anikchand461/"><img src="https://img.shields.io/badge/GFG-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" /></a></td>
+    <td align="center"><a href="https://dev.to/anikchand461"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://codolio.com/profile/anikchand461"><img src="https://img.shields.io/badge/Codolio-6C47FF?style=for-the-badge&logo=codeium&logoColor=white" /></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/anikchand461/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+    <td align="center"><a href="https://x.com/anikchand461"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a></td>
+    <td align="center"><a href="https://anikchand.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FF4088?style=for-the-badge&logo=vercel&logoColor=white" /></a></td>
+  </tr>
+</table>
 </div>
 
 ---
