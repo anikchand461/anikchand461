@@ -7,8 +7,10 @@
 <div align="center">
 
 [![Follow](https://img.shields.io/github/followers/anikchand461?label=Follow%20Me&style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/anikchand461)
+[![Stars](https://img.shields.io/github/stars/anikchand461?label=Total%20Stars&style=for-the-badge&logo=github&color=F0C040&logoColor=black)](https://github.com/anikchand461?tab=repositories)
 [![Profile Views](https://komarev.com/ghpvc/?username=anikchand461&style=for-the-badge&color=58a6ff&label=Profile+Views)](https://github.com/anikchand461)
-[![Portfolio](https://img.shields.io/badge/Portfolio-anikchand.vercel.app-F0C040?style=for-the-badge&logo=vercel&logoColor=black)](https://anikchand.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-F0C040?style=for-the-badge&logo=vercel&logoColor=black)](https://anikchand.vercel.app)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/anikchand461)
 
 </div>
 
