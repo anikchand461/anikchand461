@@ -4,6 +4,16 @@
 
 <br/>
 
+<div align="center">
+
+[![Follow](https://img.shields.io/github/followers/anikchand461?label=Follow%20Me&style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/anikchand461)
+[![Stars](https://img.shields.io/github/stars/anikchand461?label=Total%20Stars&style=for-the-badge&logo=github&color=F0C040&logoColor=black)](https://github.com/anikchand461?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=anikchand461&style=for-the-badge&color=58a6ff&label=Profile+Views)](https://github.com/anikchand461)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-F0C040?style=for-the-badge&logo=vercel&logoColor=black)](https://anikchand.vercel.app)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/anikchand461)
+
+</div>
+
 ---
 
 ## 👋 About Me
@@ -89,7 +99,7 @@
 
 <div align="center">
 
-<img src="/assets/badges/lc-100-2025.gif" width="90px" height="90px" title="LeetCode 100 Days 2024" />
+<img src="/assets/badges/lc-100-2025.gif" width="90px" height="90px" title="LeetCode 100 Days 2025" />
 <img src="/assets/badges/lc-50-2024.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
 <img src="/assets/badges/lc-50-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
 <img src="/assets/badges/pull-shark.png" width="90px" height="90px" title="Pull Shark" />
@@ -101,7 +111,7 @@
 <img src="/assets/badges/google-solution.png" width="90px" height="90px" title="Google Solution Challenge" />
 <img src="/assets/badges/badge1.png" width="90px" height="90px" title="Badge" />
 <img src="/assets/badges/ssoc.png" width="90px" height="90px" title="Social Summer of Code" />
-<img src="/assets/badges/hactober-hactoberfest.png" width="90px" height="90px" title="Social Summer of Code" />
+<img src="/assets/badges/hactober-hactoberfest.png" width="90px" height="90px" title="Hacktoberfest" />
 
 </div>
 
@@ -131,15 +141,15 @@
 <a href="https://www.youtube.com/@ZenXcode"><img src="./assets/socials/youtube.png" width="90px" height="90px" /></a>
 <a href="mailto:anikchand461@gmail.com"><img src="./assets/socials/gmail.png" width="90px" height="90px" /></a>
 
-## </div>
+</div>
 
 ---
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=anikchand461&style=flat-square&color=58a6ff&label=Profile+Views)
-&nbsp;
 [![GitHub followers](https://img.shields.io/github/followers/anikchand461?label=Followers&style=flat-square&color=58a6ff)](https://github.com/anikchand461)
+&nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/anikchand461?label=Total%20Stars&style=flat-square&color=F0C040)](https://github.com/anikchand461?tab=repositories)
 
 <br/>
 
