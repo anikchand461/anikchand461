@@ -106,6 +106,7 @@
 <img src="/assets/badges/lc-100-2025.gif" width="90px" height="90px" title="LeetCode 100 Days 2025" />
 <img src="/assets/badges/lc-50-2024.gif" width="90px" height="90px" title="LeetCode 50 Days 2024" />
 <img src="/assets/badges/lc-50-2025.gif" width="90px" height="90px" title="LeetCode 50 Days 2025" />
+<img src="/assets/badges/pandas.gif" width="90px" height="90px" title="Leetcode pandas introduction" />
 <img src="/assets/badges/pull-shark.png" width="90px" height="90px" title="Pull Shark" />
 <img src="/assets/badges/pair-extraordinaire.png" width="90px" height="90px" title="Pair Extraordinaire" />
 <img src="/assets/badges/yolo.png" width="90px" height="90px" title="YOLO" />
