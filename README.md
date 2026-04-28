@@ -146,12 +146,13 @@
 <a href="https://www.interviewbit.com/profile/anik-chand/"><img src="./assets/socials/interviewbit.png" width="90px" height="90px" /></a>
 <a href="https://devfolio.co/@anikchand461"><img src="./assets/socials/devfolio.png" width="90px" height="90px" /></a>
 <a href="https://www.youtube.com/@ZenXcode"><img src="./assets/socials/youtube.png" width="90px" height="90px" /></a>
+<a href="https://wellfound.com/u/anikchand461"><img src="./assets/socials/wellfound.png" width="90px" height="90px" /></a>
 <a href="mailto:anikchand461@gmail.com"><img src="./assets/socials/gmail.png" width="90px" height="90px" /></a>
 
 </div>
 
 ---
-c
+
 <div align="center">
 
 [![GitHub followers](https://img.shields.io/github/followers/anikchand461?label=Followers&style=flat-square&color=58a6ff)](https://github.com/anikchand461)
