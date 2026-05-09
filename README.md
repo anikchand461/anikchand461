@@ -147,6 +147,7 @@
 <a href="https://devfolio.co/@anikchand461"><img src="./assets/socials/devfolio.png" width="90px" height="90px" /></a>
 <a href="https://www.youtube.com/@ZenXcode"><img src="./assets/socials/youtube.png" width="90px" height="90px" /></a>
 <a href="https://wellfound.com/u/anikchand461"><img src="./assets/socials/wellfound.png" width="90px" height="90px" /></a>
+<a href="https://www.botpool.ai/developers/public-profile/anik-9f56ad"><img src="./assets/socials/botpool.png" width="90px" height="90px" /></a>
 <a href="mailto:anikchand461@gmail.com"><img src="./assets/socials/gmail.png" width="90px" height="90px" /></a>
 
 </div>
