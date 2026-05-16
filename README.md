@@ -60,6 +60,7 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge&logo=crewai&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![RAGAS](https://img.shields.io/badge/RAGAS-6B4FBB?style=for-the-badge&logo=python&logoColor=white)
 
 ### 🛠️ Tools
 
