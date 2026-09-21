@@ -60,7 +60,7 @@
 </td>
 </tr>
 <tr>
-<td width="200"><b>📱 Android App Development</b></td>
+<td width="200"><b>📱 Android App Dev</b></td>
 <td>
 
 ![Go-Gin](https://img.shields.io/badge/Go--Gin-00ADD8?style=flat-square&logo=go&logoColor=white)
