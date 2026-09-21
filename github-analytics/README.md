@@ -18,6 +18,17 @@ Optional env vars (Vercel → Settings → Environment Variables):
 |---|---|---|
 | `NEXT_PUBLIC_GITHUB_USERNAME` | `anikchand461` | Whose profile to show |
 | `NEXT_PUBLIC_SHOW_GRADE` | `true` | `false` hides the custom activity grade |
+| `GITHUB_TOKEN` | unset | **Server only** (used by `/api/dashboard-svg`). A classic token with no scopes is enough |
+
+## README image (`/api/dashboard-svg`)
+
+GitHub READMEs can't run React, so `GET /api/dashboard-svg` is a Next.js route handler that uses the same data layer and
+calculations as `/dashboard` and returns one tall SVG. The profile README embeds it inside a link to `/dashboard`.
+
+- Cached at the edge for 6 hours (5 minutes if any data source failed, so partial images heal quickly).
+- Without `GITHUB_TOKEN`, Vercel's shared IPs hit GitHub's anonymous limits and the search API budget (10/min) can't cover the
+  per-year composition chart. That panel then shows "Unavailable" instead of failing the whole image. Add the token to fix it.
+- The token is read only on the server and never reaches browser code.
 
 ## Data sources and limits
 

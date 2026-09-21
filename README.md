@@ -106,15 +106,15 @@
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-
-Contribution history, commit cadence, repository timeline, language breakdown and more, all from live public GitHub data.
-
-<a href="https://YOUR-DOMAIN.vercel.app/dashboard">
-  <img src="https://img.shields.io/badge/Open%20Full%20Analytics%20Dashboard-F0C040?style=for-the-badge&logo=vercel&logoColor=black" alt="Open the full GitHub analytics dashboard" />
-</a>
-
-</div>
+<p align="center">
+  <a href="https://anikchand461.vercel.app/dashboard">
+    <img
+      src="https://anikchand461.vercel.app/api/dashboard-svg"
+      alt="GitHub Analytics Dashboard"
+      width="100%"
+    />
+  </a>
+</p>
 
 ---
 

@@ -52,8 +52,16 @@ async function cached<T>(key: string, load: () => Promise<T>): Promise<T> {
 
 export class RateLimitError extends Error {}
 
+// On the server (the README image route) an optional GITHUB_TOKEN lifts the shared-IP rate limits.
+// It is never NEXT_PUBLIC_, so it is never bundled into browser code. No scopes are needed.
+const IS_SERVER = typeof window === 'undefined';
+const TOKEN = IS_SERVER ? process.env.GITHUB_TOKEN : undefined;
+const SEARCH_BUDGET = TOKEN ? 25 : 9; // per minute (GitHub allows 30 authed / 10 unauthed)
+
 async function getJson<T>(url: string): Promise<T> {
-  const res = await fetch(url, { headers: { Accept: 'application/vnd.github+json' } });
+  const headers: Record<string, string> = { Accept: 'application/vnd.github+json' };
+  if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
+  const res = await fetch(url, { headers });
   if (res.status === 403 || res.status === 429) {
     throw new RateLimitError('GitHub API rate limit reached. Try again in a few minutes.');
   }
@@ -67,10 +75,12 @@ async function throttleSearch() {
   for (;;) {
     const now = Date.now();
     while (searchTimes.length && now - searchTimes[0] > 60_000) searchTimes.shift();
-    if (searchTimes.length < 9) {
+    if (searchTimes.length < SEARCH_BUDGET) {
       searchTimes.push(now);
       return;
     }
+    // A browser can wait; a serverless function cannot.
+    if (IS_SERVER) throw new RateLimitError('GitHub search rate limit reached. Set GITHUB_TOKEN on the server.');
     await new Promise((r) => setTimeout(r, 60_000 - (now - searchTimes[0]) + 100));
   }
 }
