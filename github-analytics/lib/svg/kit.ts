@@ -1,6 +1,9 @@
 /** Small SVG string helpers shared by every section of the README image. */
 import { BG, P } from '../palette';
 
+/** Every font size in the README image is multiplied by this so text stays readable after GitHub scales the image down. */
+export const K = 1.3;
+
 export const W = 1000;
 export const PAD = 24;
 export const CARD_W = W - PAD * 2; // 952
@@ -41,7 +44,8 @@ interface TextOpts {
 }
 
 export function text(x: number, y: number, s: string | number, o: TextOpts = {}): string {
-  const { size = 11, fill = C.text, weight = 400, anchor = 'start', spacing } = o;
+  const { size: base = 11, fill = C.text, weight = 400, anchor = 'start', spacing } = o;
+  const size = +(base * K).toFixed(1);
   return `<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" font-size="${size}" fill="${fill}" font-weight="${weight}" text-anchor="${anchor}"${
     spacing ? ` letter-spacing="${spacing}"` : ''
   }>${esc(s)}</text>`;
@@ -66,40 +70,40 @@ export const meta = (x: number, y: number, s: string, anchor: 'start' | 'end' = 
 
 /** Section label between cards, like "overview — profile stat tiles" on the dashboard. */
 export function tag(id: string, desc: string, color: string = C.gold): Block {
-  const idW = id.length * 6.6 + 16;
+  const idW = id.length * 6.6 * K + 18;
   return {
-    h: 34,
+    h: 42,
     body:
-      rect(0, 8, idW, 18, C.card2, 4, `stroke="${color}" stroke-opacity=".7"`) +
-      text(8, 21, id, { size: 10.5, fill: color, weight: 700 }) +
-      text(idW + 8, 21, `— ${desc}`, { size: 10.5, fill: C.muted }),
+      rect(0, 8, idW, 24, C.card2, 5, `stroke="${color}" stroke-opacity=".7"`) +
+      text(9, 25, id, { size: 10.5, fill: color, weight: 700 }) +
+      text(idW + 10, 25, `— ${desc}`, { size: 10.5, fill: C.muted }),
   };
 }
 
 export function card(title: string, metaText: string, content: Block, accent: string = C.gold): Block {
-  const h = 44 + content.h + 16;
+  const h = 56 + content.h + 20;
   return {
     h,
     body:
       rect(0.5, 0.5, CARD_W - 1, h - 1, C.card, 10, `stroke="${C.border}"`) +
       rect(12, 0.5, CARD_W - 24, 3, accent, 1.5) +
-      text(18, 27, title, { size: 13.5, weight: 700, fill: accent }) +
-      meta(CARD_W - 18, 26, metaText, 'end') +
-      group(18, 44, content.body),
+      text(18, 34, title, { size: 13.5, weight: 700, fill: accent }) +
+      meta(CARD_W - 18, 33, metaText, 'end') +
+      group(18, 56, content.body),
   };
 }
 
 export function tile(x: number, y: number, w: number, h: number, label: string, value: string, sub?: string, color: string = C.text): string {
   return (
     rect(x, y, w, h, C.card2, 8, `stroke="${C.border}"`) +
-    text(x + 12, y + 20, label, { size: 10.5, fill: C.muted }) +
-    text(x + 12, y + 46, value, { size: 24, weight: 700, fill: color }) +
-    (sub ? text(x + 12, y + h - 9, trunc(sub.toUpperCase(), Math.floor((w - 20) / 5.6)), { size: 8.5, fill: C.muted, spacing: 0.5 }) : '')
+    text(x + 14, y + 24, label, { size: 10.5, fill: C.muted }) +
+    text(x + 14, y + 58, value, { size: 24, weight: 700, fill: color }) +
+    (sub ? text(x + 14, y + h - 11, trunc(sub.toUpperCase(), Math.floor((w - 24) / 7.6)), { size: 8.5, fill: C.muted, spacing: 0.5 }) : '')
   );
 }
 
 export function message(msg: string, isError = true): Block {
-  return { h: 70, body: text(INNER / 2, 40, msg, { size: 11.5, anchor: 'middle', fill: isError ? C.err : C.muted }) };
+  return { h: 80, body: text(INNER / 2, 44, msg, { size: 11.5, anchor: 'middle', fill: isError ? C.err : C.muted }) };
 }
 
 export function note(y: number, s: string): string {

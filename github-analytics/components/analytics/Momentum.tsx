@@ -8,7 +8,7 @@ import { contributionStats, fmt, rollingYear } from '@/lib/analytics';
 import { P } from '@/lib/palette';
 import type { AsyncState, ContribData } from '@/lib/types';
 
-const AXIS = { fill: '#8b8070', fontSize: 11 };
+const AXIS = { fill: '#8b8070', fontSize: 13 };
 
 export function Momentum({ state }: { state: AsyncState<ContribData> }) {
   return (
@@ -48,7 +48,7 @@ function MomentumChart({ data }: { data: ContribData }) {
             <XAxis dataKey="date" tick={AXIS} tickFormatter={(d: string) => d.slice(0, 7)} minTickGap={48} stroke="#21262d" />
             <YAxis tick={AXIS} width={40} stroke="#21262d" />
             <Tooltip
-              contentStyle={{ background: '#161b22', border: '1px solid #21262d', fontSize: 12 }}
+              contentStyle={{ background: '#161b22', border: '1px solid #21262d', fontSize: 14 }}
               labelStyle={{ color: '#f0c040' }}
               formatter={(v: number) => [fmt(v), 'Rolling 12 mo']}
             />

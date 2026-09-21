@@ -63,7 +63,7 @@ function Body({ contrib, repos, counts, bytes }: { contrib: ContribData } & Omit
     ['Total Commits', pick(counts, (c) => c.commits), STAT_COLORS.commits],
     ['Total PRs', pick(counts, (c) => c.prs), STAT_COLORS.prs],
     ['Total Issues', pick(counts, (c) => c.issues), STAT_COLORS.issues],
-    ['Contributed to (other repos)', contrib.contributedTo === undefined ? '—' : fmt(contrib.contributedTo), STAT_COLORS.contributed],
+    ['Contributed to (others)', contrib.contributedTo === undefined ? '—' : fmt(contrib.contributedTo), STAT_COLORS.contributed],
   ];
 
   return (

@@ -42,7 +42,7 @@ function Timeline({ repos }: { repos: GhRepo[] }) {
             return (
               <g key={y}>
                 <line x1={tx} x2={tx} y1={0} y2={rows.length * ROW} stroke="#21262d" />
-                <text x={tx} y={height - 8} fill="#8b8070" fontSize={10} textAnchor="middle">{y}</text>
+                <text x={tx} y={height - 8} fill="#8b8070" fontSize={12} textAnchor="middle">{y}</text>
               </g>
             );
           })}
@@ -54,7 +54,7 @@ function Timeline({ repos }: { repos: GhRepo[] }) {
             return (
               <g key={r.full_name}>
                 <circle cx={6} cy={y} r={4} fill={r.language ? languageColor(r.language) : '#6e7681'} />
-                <text x={16} y={y + 4} fill="#e2d9c0" fontSize={11}>
+                <text x={16} y={y + 4} fill="#e2d9c0" fontSize={13}>
                   {r.name.length > 22 ? `${r.name.slice(0, 21)}…` : r.name}
                 </text>
                 <line x1={a} x2={b} y1={y} y2={y} stroke={color} strokeWidth={3} strokeLinecap="round" />

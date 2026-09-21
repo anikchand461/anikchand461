@@ -10,8 +10,8 @@ import type { AsyncState, ContribData, ContribDay } from '@/lib/types';
 const CELL = 10;
 const GAP = 3;
 const STEP = CELL + GAP;
-const LEFT = 26;
-const TOP = 16;
+const LEFT = 32;
+const TOP = 20;
 
 export function LifetimeHeatmap({ state }: { state: AsyncState<ContribData> }) {
   return (
@@ -69,12 +69,12 @@ function YearGrid({ year, days, total, ramp }: { year: number; days: ContribDay[
       <div className="scroll-x">
         <svg viewBox={`0 0 ${width} ${height}`} style={{ width: '100%', minWidth: 560, height: 'auto', display: 'block' }} role="img" aria-label={`Contribution grid for ${year}`}>
           {labels.map((l) => (
-            <text key={l.text + l.x} x={l.x} y={10} fill="#8b8070" fontSize={9}>
+            <text key={l.text + l.x} x={l.x} y={10} fill="#8b8070" fontSize={11}>
               {l.text}
             </text>
           ))}
           {[1, 3, 5].map((d) => (
-            <text key={d} x={0} y={TOP + d * STEP + CELL - 1} fill="#8b8070" fontSize={9}>
+            <text key={d} x={0} y={TOP + d * STEP + CELL - 1} fill="#8b8070" fontSize={11}>
               {WEEKDAYS[d]}
             </text>
           ))}

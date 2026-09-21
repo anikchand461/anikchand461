@@ -92,7 +92,7 @@
 <p align="center">
   <a href="https://anikchand461.vercel.app/dashboard">
     <img
-      src="https://anikchand461.vercel.app/api/dashboard-svg?v=4"
+      src="https://anikchand461.vercel.app/api/dashboard-svg?v=5"
       alt="GitHub Analytics Dashboard"
       width="100%"
     />
