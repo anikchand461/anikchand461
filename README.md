@@ -99,7 +99,11 @@
 
 ### 📈 Activity
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anikchand461&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area_color=58a6ff&area=true&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anikchand461/anikchand461/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anikchand461/anikchand461/output/github-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/anikchand461/anikchand461/output/github-snake-dark.svg" />
+</picture>
 
 ---
 
