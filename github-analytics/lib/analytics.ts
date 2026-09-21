@@ -1,5 +1,5 @@
 /** Pure functions: raw GitHub data in, chart-ready data out. No I/O. */
-import type { ContribDay, GhRepo, LanguageBytes, PushSample } from './types';
+import type { ContribDay, GhRepo } from './types';
 
 const DAY = 86_400_000;
 const toUtc = (iso: string) => new Date(`${iso}T00:00:00Z`).getTime();
@@ -115,16 +115,6 @@ export function weekendShare(days: ContribDay[]): number {
   return all ? ((t[0] + t[6]) / all) * 100 : 0;
 }
 
-/** 7 (weekday) x 24 (hour) commit matrix in the viewer's local time. */
-export function punchCard(samples: PushSample[]): number[][] {
-  const grid = Array.from({ length: 7 }, () => new Array(24).fill(0));
-  for (const s of samples) {
-    const d = new Date(s.createdAt);
-    grid[d.getDay()][d.getHours()] += s.commits;
-  }
-  return grid;
-}
-
 export interface RepoRow extends GhRepo {
   ageDays: number;
 }
@@ -145,31 +135,6 @@ export function rankRepos(repos: GhRepo[], sort: RepoSort, includeForks = false)
 
 export function totalStars(repos: GhRepo[]): number {
   return repos.filter((r) => !r.fork).reduce((s, r) => s + r.stargazers_count, 0);
-}
-
-export interface LanguageShare {
-  name: string;
-  value: number;
-  percent: number;
-}
-
-/** Bytes when available, otherwise number of repos using the language as primary. */
-export function languageShares(bytes: LanguageBytes | null, repos: GhRepo[]): { unit: 'bytes' | 'repos'; rows: LanguageShare[] } {
-  let source: Record<string, number>;
-  let unit: 'bytes' | 'repos';
-  if (bytes && Object.keys(bytes).length) {
-    source = bytes;
-    unit = 'bytes';
-  } else {
-    source = {};
-    for (const r of repos) if (!r.fork && r.language) source[r.language] = (source[r.language] ?? 0) + 1;
-    unit = 'repos';
-  }
-  const total = Object.values(source).reduce((a, b) => a + b, 0);
-  const rows = Object.entries(source)
-    .map(([name, value]) => ({ name, value, percent: total ? (value / total) * 100 : 0 }))
-    .sort((a, b) => b.value - a.value);
-  return { unit, rows };
 }
 
 export const LANGUAGE_COLORS: Record<string, string> = {

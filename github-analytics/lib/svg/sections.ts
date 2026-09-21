@@ -10,9 +10,7 @@ import {
   contributionStats,
   fmt,
   languageColor,
-  languageShares,
   monthTotals,
-  punchCard,
   rankRepos,
   recentOriginalRepos,
   rollingYear,
@@ -22,33 +20,8 @@ import {
   yearGrid,
   yearsOf,
 } from '../analytics';
-import type { ContribData, Counts, GhRepo, GhUser, LanguageBytes, PushSample, YearComposition } from '../types';
-import { Block, C, HEAT, INNER, circle, group, line, message, meta, note, rect, text, tile, treemap, trunc } from './kit';
-
-export type Res<T> = { ok: true; v: T } | { ok: false; error: string };
-
-const val = <T,>(r: Res<T>, get: (v: T) => number) => (r.ok ? fmt(get(r.v)) : '—');
-
-// ---------- 1. overview ----------
-
-export function overview(user: Res<GhUser>, repos: Res<GhRepo[]>, contrib: Res<ContribData>, counts: Res<Counts>): Block {
-  const gap = 10;
-  const w = (INNER - gap * 3) / 4;
-  const h = 72;
-  const since = contrib.ok && contrib.v.days.length ? `Since ${contrib.v.days[0].date.slice(0, 4)}` : undefined;
-  const tiles: [string, string, string?, boolean?][] = [
-    ['Contributions (all time)', val(contrib, (c) => c.days.reduce((s, d) => s + d.count, 0)), since, true],
-    ['Commits (public)', val(counts, (c) => c.commits), 'Default branches', true],
-    ['Stars earned', val(repos, totalStars), 'Forks excluded'],
-    ['Public repositories', val(user, (u) => u.public_repos)],
-    ['Pull requests', val(counts, (c) => c.prs)],
-    ['Issues opened', val(counts, (c) => c.issues)],
-    ['Code reviews', val(counts, (c) => c.reviews), "On others' PRs"],
-    ['Followers', val(user, (u) => u.followers), user.ok ? `Following ${fmt(user.v.following)}` : undefined],
-  ];
-  const body = tiles.map(([l, v, s, g], i) => tile((i % 4) * (w + gap), Math.floor(i / 4) * (h + gap), w, h, l, v, s, g)).join('');
-  return { h: h * 2 + gap, body };
-}
+import type { ContribData, Counts, GhRepo, Res } from '../types';
+import { Block, C, HEAT, INNER, circle, line, message, meta, note, rect, text, tile, trunc } from './kit';
 
 // ---------- 2. momentum ----------
 
@@ -153,47 +126,6 @@ export function heatmap(contrib: Res<ContribData>): Block {
   return { h: y + 18, body };
 }
 
-// ---------- 5. composition ----------
-
-export function composition(res: Res<YearComposition[]>): Block {
-  if (!res.ok) return message(`Unavailable: ${res.error}`);
-  const rows = res.v;
-  if (!rows.length) return message('No data to show yet.', false);
-  const series: [keyof YearComposition, string, string][] = [
-    ['other', 'Commits & other (calculated)', C.grey],
-    ['issues', 'Issues', C.gold],
-    ['prs', 'Pull requests', C.purple],
-    ['reviews', 'Reviews', C.green],
-  ];
-  const ch = 150;
-  const top = 18;
-  const chartW = 560;
-  const max = Math.max(...rows.map((r) => r.total), 1);
-  const slot = chartW / rows.length;
-  const bw = Math.min(64, slot - 16);
-  let body = line(0, top + ch, chartW, top + ch);
-  rows.forEach((r, i) => {
-    const x = i * slot + (slot - bw) / 2;
-    let y = top + ch;
-    for (const [key, , color] of series) {
-      const h = ((r[key] as number) / max) * ch;
-      body += rect(x, y - h, bw, h, color, 1);
-      y -= h;
-    }
-    body += text(x + bw / 2, y - 6, fmt(r.total), { size: 10, fill: C.muted, anchor: 'middle' });
-    body += text(x + bw / 2, top + ch + 16, r.year, { size: 10, fill: C.muted, anchor: 'middle' });
-  });
-  series.forEach(([, label, color], i) => {
-    body += rect(600, 22 + i * 22, 10, 10, color, 2) + text(618, 31 + i * 22, label, { size: 10.5 });
-  });
-  body +=
-    text(600, 128, 'Measured: pull requests, issues, reviews', { size: 9.5, fill: C.muted }) +
-    text(600, 142, '(GitHub search, by creation date).', { size: 9.5, fill: C.muted }) +
-    text(600, 160, 'Calculated: commits & other = yearly', { size: 9.5, fill: C.muted }) +
-    text(600, 174, 'total minus the three measured types.', { size: 9.5, fill: C.muted });
-  return { h: top + ch + 30, body };
-}
-
 // ---------- 6. rhythm ----------
 
 export function rhythm(contrib: Res<ContribData>): Block {
@@ -219,31 +151,6 @@ export function rhythm(contrib: Res<ContribData>): Block {
   });
   body += note(196, `${weekendShare(contrib.v.days).toFixed(0)}% of contributions land on weekends. Time-of-day is under Commit cadence.`);
   return { h: 206, body };
-}
-
-// ---------- 7. commit cadence ----------
-
-export function cadence(res: Res<PushSample[]>): Block {
-  if (!res.ok) return message(res.error);
-  if (!res.v.length) return message('No public pushes in the last 90 days.', false);
-  const grid = punchCard(res.v);
-  const max = Math.max(...grid.flat(), 1);
-  const left = 40;
-  const step = (INNER - left) / 24;
-  const row = 26;
-  let body = '';
-  [1, 2, 3, 4, 5, 6, 0].forEach((d, r) => {
-    body += text(0, r * row + row / 2 + 4, WEEKDAYS[d], { size: 10, fill: C.muted });
-    for (let h = 0; h < 24; h++) {
-      const v = grid[d][h];
-      body += circle(left + h * step + step / 2, r * row + row / 2, v ? 3 + (v / max) * 9 : 1.6, v ? C.green : C.border, v ? 0.5 + (v / max) * 0.5 : 1);
-    }
-  });
-  for (let h = 0; h < 24; h += 3) body += text(left + h * step + step / 2, 7 * row + 14, String(h), { size: 9.5, fill: C.muted, anchor: 'middle' });
-  const total = res.v.reduce((a, s) => a + s.commits, 0);
-  const byHour = Array.from({ length: 24 }, (_, h) => grid.reduce((a, r) => a + r[h], 0));
-  body += note(7 * row + 36, `Commit activity only (public pushes, ~last 90 days, UTC): ${fmt(total)} commits in ${fmt(res.v.length)} pushes. Busiest hour ${byHour.indexOf(Math.max(...byHour))}:00.`);
-  return { h: 7 * row + 44, body };
 }
 
 // ---------- 8. repository analysis ----------
@@ -303,40 +210,6 @@ export function portfolio(res: Res<GhRepo[]>): Block {
   return { h: rows.length * rowH + 46, body };
 }
 
-// ---------- 10. languages ----------
-
-export function languages(repos: Res<GhRepo[]>, bytes: Res<LanguageBytes>): Block {
-  if (!repos.ok) return message(repos.error);
-  const { unit, rows } = languageShares(bytes.ok ? bytes.v : null, repos.v);
-  if (!rows.length) return message('No language data.', false);
-  const th = 180;
-  const cells = treemap(rows.slice(0, 12), INNER, th);
-  let body = '';
-  for (const c of cells) {
-    const p = (c.value / rows.reduce((a, r) => a + r.value, 0)) * 100;
-    body += rect(c.x + 1, c.y + 1, c.w - 2, c.h - 2, languageColor(c.name), 4);
-    if (c.w > 70 && c.h > 36) {
-      body += text(c.x + 9, c.y + 19, trunc(c.name, Math.floor(c.w / 7.5)), { size: 12, weight: 700, fill: C.bg });
-      body += text(c.x + 9, c.y + 34, `${p.toFixed(1)}%`, { size: 11, fill: C.bg });
-    }
-  }
-  const list = rows.slice(0, 6);
-  list.forEach((r, i) => {
-    const col = i % 2;
-    const y = th + 18 + Math.floor(i / 2) * 22;
-    const x0 = col * (INNER / 2 + 10);
-    const bw = INNER / 2 - 200;
-    body +=
-      circle(x0 + 4, y + 4, 4, languageColor(r.name)) +
-      text(x0 + 14, y + 8, trunc(r.name, 16), { size: 11 }) +
-      rect(x0 + 140, y, bw, 8, C.card2, 3) +
-      rect(x0 + 140, y, (r.percent / 100) * bw, 8, languageColor(r.name), 3) +
-      text(x0 + 140 + bw + 46, y + 8, `${r.percent.toFixed(1)}%`, { size: 10.5, anchor: 'end', fill: C.muted });
-  });
-  body += note(th + 18 + 3 * 22 + 8, unit === 'bytes' ? 'Measured in bytes across the largest original public repositories.' : 'Byte counts unavailable; showing repository count by primary language.');
-  return { h: th + 18 + 3 * 22 + 16, body };
-}
-
 // ---------- 11. grade ----------
 
 export function grade(contrib: Res<ContribData>, counts: Res<Counts>, repos: Res<GhRepo[]>): Block {
@@ -367,4 +240,3 @@ export function grade(contrib: Res<ContribData>, counts: Res<Counts>, repos: Res
   return { h: 8 + 8 * 22 + 22, body };
 }
 
-export { group };

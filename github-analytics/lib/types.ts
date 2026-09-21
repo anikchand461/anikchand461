@@ -36,12 +36,6 @@ export interface ContribData {
   totals: Record<string, number>; // per calendar year
 }
 
-/** A push event from the public events feed (last ~90 days only). */
-export interface PushSample {
-  createdAt: string;
-  commits: number;
-}
-
 export interface Counts {
   commits: number;
   prs: number;
@@ -49,16 +43,8 @@ export interface Counts {
   reviews: number;
 }
 
-export interface YearComposition {
-  year: number;
-  total: number; // contribution calendar total (includes private, if enabled)
-  prs: number;
-  issues: number;
-  reviews: number;
-  other: number; // total - prs - issues - reviews (commits & everything else)
-}
-
-export type LanguageBytes = Record<string, number>;
+/** Result of one data fetch; a single failing source must not blank the whole page. */
+export type Res<T> = { ok: true; v: T } | { ok: false; error: string };
 
 export type AsyncState<T> =
   | { status: 'loading' }

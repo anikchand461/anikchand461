@@ -1,94 +1,61 @@
-'use client';
-
 import { ActivityRhythm } from '@/components/analytics/ActivityRhythm';
-import { CommitCadence } from '@/components/analytics/CommitCadence';
-import { ContributionComposition } from '@/components/analytics/ContributionComposition';
 import { Contributions } from '@/components/analytics/Contributions';
-import { LanguageAnalysis } from '@/components/analytics/LanguageAnalysis';
 import { LifetimeHeatmap } from '@/components/analytics/LifetimeHeatmap';
 import { Momentum } from '@/components/analytics/Momentum';
-import { Overview } from '@/components/analytics/Overview';
 import { ProfileGrade } from '@/components/analytics/ProfileGrade';
 import { RepositoryAnalysis } from '@/components/analytics/RepositoryAnalysis';
 import { RepositoryPortfolio } from '@/components/analytics/RepositoryPortfolio';
 import { SectionTag } from '@/components/ui/Card';
 import { SHOW_GRADE, USERNAME } from '@/lib/config';
-import {
-  fetchComposition,
-  fetchContributions,
-  fetchCounts,
-  fetchLanguageBytes,
-  fetchPushSamples,
-  fetchRepos,
-  fetchUser,
-} from '@/lib/github';
-import { useAsync } from '@/lib/useAsync';
+import { fetchContributions, fetchCounts, fetchRepos, fetchUser, settle } from '@/lib/github';
+import type { AsyncState, Res } from '@/lib/types';
 
-export function Dashboard() {
-  const user = useAsync(() => fetchUser(USERNAME));
-  const repos = useAsync(() => fetchRepos(USERNAME));
-  const contrib = useAsync(() => fetchContributions(USERNAME));
-  const events = useAsync(() => fetchPushSamples(USERNAME));
-  const counts = useAsync(() => fetchCounts(USERNAME));
+const toState = <T,>(r: Res<T>): AsyncState<T> => (r.ok ? { status: 'ready', data: r.v } : { status: 'error', error: r.error });
 
-  // These depend on earlier results, so they wait until those are ready.
-  const composition = useAsync(
-    () => fetchComposition(USERNAME, contrib.status === 'ready' ? contrib.data.totals : {}),
-    contrib.status,
-    contrib.status === 'ready',
-  );
-  const bytes = useAsync(
-    () => fetchLanguageBytes(USERNAME, repos.status === 'ready' ? repos.data : []),
-    repos.status,
-    repos.status === 'ready',
-  );
-
-  const composed = contrib.status === 'error' ? contrib : composition;
+/**
+ * Server component: data is fetched on the server (with GITHUB_TOKEN when set) and the page is
+ * regenerated on a schedule, so visitors never call GitHub and the token never reaches the browser.
+ */
+export async function Dashboard() {
+  const [user, repos, contrib, counts] = await Promise.all([
+    settle(fetchUser(USERNAME)),
+    settle(fetchRepos(USERNAME)),
+    settle(fetchContributions(USERNAME)),
+    settle(fetchCounts(USERNAME)),
+  ]);
 
   return (
     <main className="wrap">
       <header className="head">
-        {user.status === 'ready' && <img src={user.data.avatar_url} alt="" />}
+        {user.ok && <img src={user.v.avatar_url} alt="" />}
         <div>
           <h1>GitHub Analytics · @{USERNAME}</h1>
-          <p>Live from public GitHub data. Nothing is stored on a server.</p>
+          <p>Refreshed automatically from GitHub every few hours.</p>
         </div>
       </header>
 
-      <SectionTag id="overview">profile stat tiles</SectionTag>
-      <Overview user={user} repos={repos} contrib={contrib} counts={counts} />
-
       <SectionTag id="momentum">the trailing twelve months, rolled across the whole history</SectionTag>
-      <Momentum state={contrib} />
+      <Momentum state={toState(contrib)} />
 
       <SectionTag id="contributions">streaks and averages</SectionTag>
-      <Contributions state={contrib} />
+      <Contributions state={toState(contrib)} />
 
       <SectionTag id="history">one grid per contribution year</SectionTag>
-      <LifetimeHeatmap state={contrib} />
-
-      <SectionTag id="composition">what the contributions are made of</SectionTag>
-      <ContributionComposition state={composed} />
+      <LifetimeHeatmap state={toState(contrib)} />
 
       <SectionTag id="rhythm">when the contributions happen</SectionTag>
-      <ActivityRhythm state={contrib} />
-
-      <SectionTag id="cadence">when the commits land, hour by hour</SectionTag>
-      <CommitCadence state={events} />
+      <ActivityRhythm state={toState(contrib)} />
 
       <SectionTag id="repositories">where the work lives</SectionTag>
-      <RepositoryAnalysis state={repos} />
+      <RepositoryAnalysis state={toState(repos)} />
 
       <SectionTag id="portfolio">a lifeline per repository on one time axis</SectionTag>
-      <RepositoryPortfolio state={repos} />
-
-      <SectionTag id="languages">language treemap with a ranked list</SectionTag>
-      <LanguageAnalysis repos={repos} bytes={bytes} />
+      <RepositoryPortfolio state={toState(repos)} />
 
       {SHOW_GRADE && (
         <>
           <SectionTag id="grade">a custom activity score</SectionTag>
-          <ProfileGrade contrib={contrib} counts={counts} repos={repos} />
+          <ProfileGrade contrib={toState(contrib)} counts={toState(counts)} repos={toState(repos)} />
         </>
       )}
     </main>
