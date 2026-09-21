@@ -1,4 +1,5 @@
 /** Small SVG string helpers shared by every section of the README image. */
+import { BG, P } from '../palette';
 
 export const W = 1000;
 export const PAD = 24;
@@ -6,20 +7,18 @@ export const CARD_W = W - PAD * 2; // 952
 export const INNER = CARD_W - 36; // 916, content width inside a card
 
 export const C = {
-  bg: '#0d1117',
-  card: '#11161d',
+  bg: BG,
+  card: BG,
   card2: '#161b22',
-  border: '#21262d',
+  border: '#30363d',
   text: '#e2d9c0',
   muted: '#8b8070',
-  gold: '#f0c040',
-  green: '#39d353',
+  gold: P.gold,
+  green: P.green,
   grey: '#6e7681',
-  purple: '#a371f7',
+  purple: P.purple,
   err: '#f85149',
 };
-
-export const HEAT = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'];
 
 const FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace";
 
@@ -66,34 +65,35 @@ export const meta = (x: number, y: number, s: string, anchor: 'start' | 'end' = 
   text(x, y, s.toUpperCase(), { size: 9, fill: C.muted, anchor, spacing: 0.8 });
 
 /** Section label between cards, like "overview — profile stat tiles" on the dashboard. */
-export function tag(id: string, desc: string): Block {
+export function tag(id: string, desc: string, color: string = C.gold): Block {
   const idW = id.length * 6.6 + 16;
   return {
     h: 34,
     body:
-      rect(0, 8, idW, 18, C.card2, 4, `stroke="${C.border}"`) +
-      text(8, 21, id, { size: 10.5, fill: C.gold, weight: 700 }) +
+      rect(0, 8, idW, 18, C.card2, 4, `stroke="${color}" stroke-opacity=".7"`) +
+      text(8, 21, id, { size: 10.5, fill: color, weight: 700 }) +
       text(idW + 8, 21, `— ${desc}`, { size: 10.5, fill: C.muted }),
   };
 }
 
-export function card(title: string, metaText: string, content: Block): Block {
+export function card(title: string, metaText: string, content: Block, accent: string = C.gold): Block {
   const h = 44 + content.h + 16;
   return {
     h,
     body:
       rect(0.5, 0.5, CARD_W - 1, h - 1, C.card, 10, `stroke="${C.border}"`) +
-      text(18, 26, title, { size: 13.5, weight: 700 }) +
+      rect(12, 0.5, CARD_W - 24, 3, accent, 1.5) +
+      text(18, 27, title, { size: 13.5, weight: 700, fill: accent }) +
       meta(CARD_W - 18, 26, metaText, 'end') +
       group(18, 44, content.body),
   };
 }
 
-export function tile(x: number, y: number, w: number, h: number, label: string, value: string, sub?: string, gold = false): string {
+export function tile(x: number, y: number, w: number, h: number, label: string, value: string, sub?: string, color: string = C.text): string {
   return (
     rect(x, y, w, h, C.card2, 8, `stroke="${C.border}"`) +
     text(x + 12, y + 20, label, { size: 10.5, fill: C.muted }) +
-    text(x + 12, y + 46, value, { size: 24, weight: 700, fill: gold ? C.gold : C.text }) +
+    text(x + 12, y + 46, value, { size: 24, weight: 700, fill: color }) +
     (sub ? text(x + 12, y + h - 9, trunc(sub.toUpperCase(), Math.floor((w - 20) / 5.6)), { size: 8.5, fill: C.muted, spacing: 0.5 }) : '')
   );
 }

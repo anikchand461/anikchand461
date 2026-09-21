@@ -10,7 +10,7 @@
  *
  * Swap these functions to plug in another data source; components only see `lib/types.ts`.
  */
-import type { ContribData, ContribDay, Counts, GhRepo, GhUser, Res } from './types';
+import type { ContribData, ContribDay, Counts, GhRepo, GhUser, LanguageBytes, Res } from './types';
 
 const API = 'https://api.github.com';
 const FALLBACK_CALENDAR = 'https://github-contributions-api.jogruber.de/v4';
@@ -84,14 +84,24 @@ const LEVELS: Record<string, ContribDay['level']> = {
 };
 
 const CALENDAR_QUERY = `query($login:String!,$from:DateTime!,$to:DateTime!){
-  user(login:$login){contributionsCollection(from:$from,to:$to){contributionCalendar{
-    totalContributions weeks{contributionDays{date contributionCount contributionLevel}}}}}
+  user(login:$login){contributionsCollection(from:$from,to:$to){
+    totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions
+    contributionCalendar{totalContributions weeks{contributionDays{date contributionCount contributionLevel}}}}}
+}`;
+
+const CONTRIBUTED_TO_QUERY = `query($login:String!){
+  user(login:$login){repositoriesContributedTo(first:1, includeUserRepositories:false,
+    contributionTypes:[COMMIT,PULL_REQUEST,ISSUE,PULL_REQUEST_REVIEW]){totalCount}}
 }`;
 
 interface CalendarResponse {
   data?: {
     user: {
       contributionsCollection: {
+        totalCommitContributions: number;
+        totalPullRequestContributions: number;
+        totalIssueContributions: number;
+        totalPullRequestReviewContributions: number;
         contributionCalendar: {
           totalContributions: number;
           weeks: { contributionDays: { date: string; contributionCount: number; contributionLevel: string }[] }[];
@@ -118,16 +128,21 @@ async function calendarFromGithub(login: string, sinceYear: number): Promise<Con
       });
       if (!res.ok) throw new Error(`GraphQL request failed (${res.status})`);
       const json = (await res.json()) as CalendarResponse;
-      const cal = json.data?.user?.contributionsCollection.contributionCalendar;
-      if (!cal) throw new Error(json.errors?.[0]?.message ?? 'No calendar returned');
-      return { year: y, cal };
+      const col = json.data?.user?.contributionsCollection;
+      if (!col) throw new Error(json.errors?.[0]?.message ?? 'No calendar returned');
+      return { year: y, cal: col.contributionCalendar, col };
     }),
   );
 
   const days: ContribDay[] = [];
   const totals: Record<string, number> = {};
-  for (const { year, cal } of results) {
+  const counts: Counts = { commits: 0, prs: 0, issues: 0, reviews: 0 };
+  for (const { year, cal, col } of results) {
     totals[String(year)] = cal.totalContributions;
+    counts.commits += col.totalCommitContributions;
+    counts.prs += col.totalPullRequestContributions;
+    counts.issues += col.totalIssueContributions;
+    counts.reviews += col.totalPullRequestReviewContributions;
     for (const w of cal.weeks) {
       for (const d of w.contributionDays) {
         if (d.date.startsWith(String(year))) {
@@ -136,7 +151,19 @@ async function calendarFromGithub(login: string, sinceYear: number): Promise<Con
       }
     }
   }
-  return { days, totals };
+  return { days, totals, counts };
+}
+
+async function contributedToFromGithub(login: string): Promise<number> {
+  const res = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ query: CONTRIBUTED_TO_QUERY, variables: { login } }),
+  });
+  const json = (await res.json()) as { data?: { user?: { repositoriesContributedTo: { totalCount: number } } } };
+  const n = json.data?.user?.repositoriesContributedTo.totalCount;
+  if (typeof n !== 'number') throw new Error('contributedTo unavailable');
+  return n;
 }
 
 async function calendarFromFallback(login: string): Promise<ContribData> {
@@ -152,6 +179,7 @@ export async function fetchContributions(login: string): Promise<ContribData> {
     try {
       const user = await fetchUser(login);
       data = await calendarFromGithub(login, new Date(user.created_at).getUTCFullYear());
+      data.contributedTo = await contributedToFromGithub(login).catch(() => undefined);
     } catch {
       data = await calendarFromFallback(login); // never let a GraphQL hiccup blank the page
     }
@@ -161,5 +189,26 @@ export async function fetchContributions(login: string): Promise<ContribData> {
   // Calendars are padded with empty future days; drop them so streaks/averages are correct.
   const today = new Date().toISOString().slice(0, 10);
   const days = data.days.filter((d) => d.date <= today).sort((a, b) => a.date.localeCompare(b.date));
-  return { days, totals: data.totals };
+  return { ...data, days };
+}
+
+/** Bytes per language across original repos (each is one API call; capped without a token). */
+export async function fetchLanguageBytes(repos: GhRepo[]): Promise<LanguageBytes> {
+  const limit = TOKEN ? 100 : 12;
+  const targets = repos
+    .filter((r) => !r.fork)
+    .sort((a, b) => b.size - a.size)
+    .slice(0, limit);
+  const total: LanguageBytes = {};
+  for (let i = 0; i < targets.length; i += 10) {
+    const batch = await Promise.allSettled(
+      targets.slice(i, i + 10).map((r) => getJson<LanguageBytes>(`${API}/repos/${r.full_name}/languages`)),
+    );
+    for (const r of batch) {
+      if (r.status !== 'fulfilled') continue;
+      for (const [lang, bytes] of Object.entries(r.value)) total[lang] = (total[lang] ?? 0) + bytes;
+    }
+  }
+  if (!Object.keys(total).length) throw new Error('Language data unavailable (rate limit?)');
+  return total;
 }

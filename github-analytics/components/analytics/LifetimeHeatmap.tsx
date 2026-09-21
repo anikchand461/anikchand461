@@ -4,9 +4,9 @@ import { useMemo } from 'react';
 import { Async } from '@/components/ui/Async';
 import { Card } from '@/components/ui/Card';
 import { MONTHS, WEEKDAYS, fmt, yearGrid, yearsOf } from '@/lib/analytics';
+import { HEAT_RAMPS, P } from '@/lib/palette';
 import type { AsyncState, ContribData, ContribDay } from '@/lib/types';
 
-const LEVEL_FILL = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'];
 const CELL = 10;
 const GAP = 3;
 const STEP = CELL + GAP;
@@ -15,7 +15,7 @@ const TOP = 16;
 
 export function LifetimeHeatmap({ state }: { state: AsyncState<ContribData> }) {
   return (
-    <Card title="Contribution history" meta="By day · one grid per year · public">
+    <Card title="Contribution history" meta="By day · one grid per year" accent={P.green}>
       <Async state={state} isEmpty={(c) => c.days.length === 0}>
         {(c) => <Years data={c} />}
       </Async>
@@ -28,13 +28,13 @@ function Years({ data }: { data: ContribData }) {
   return (
     <>
       <div style={{ display: 'grid', gap: 18 }}>
-        {years.map((y) => (
-          <YearGrid key={y} year={y} days={data.days} total={data.totals[String(y)] ?? 0} />
+        {years.map((y, i) => (
+          <YearGrid key={y} year={y} days={data.days} total={data.totals[String(y)] ?? 0} ramp={HEAT_RAMPS[i % HEAT_RAMPS.length]} />
         ))}
       </div>
       <div className="legend" aria-label="Legend" style={{ alignItems: 'center' }}>
         Less
-        {LEVEL_FILL.map((f, i) => (
+        {HEAT_RAMPS[0].map((f, i) => (
           <span key={i} style={{ ['--c' as string]: f, margin: 0 }} aria-hidden />
         ))}
         More
@@ -43,7 +43,7 @@ function Years({ data }: { data: ContribData }) {
   );
 }
 
-function YearGrid({ year, days, total }: { year: number; days: ContribDay[]; total: number }) {
+function YearGrid({ year, days, total, ramp }: { year: number; days: ContribDay[]; total: number; ramp: string[] }) {
   const weeks = useMemo(() => yearGrid(days, year), [days, year]);
   const width = LEFT + weeks.length * STEP;
   const height = TOP + 7 * STEP;
@@ -63,7 +63,7 @@ function YearGrid({ year, days, total }: { year: number; days: ContribDay[]; tot
 
   return (
     <div>
-      <div className="meta" style={{ marginBottom: 4 }}>
+      <div className="meta" style={{ marginBottom: 4, color: ramp[4] }}>
         {year} · {fmt(total)} contributions
       </div>
       <div className="scroll-x">
@@ -81,7 +81,7 @@ function YearGrid({ year, days, total }: { year: number; days: ContribDay[]; tot
           {weeks.map((w, wi) =>
             w.map((d, di) =>
               d ? (
-                <rect key={d.date} x={LEFT + wi * STEP} y={TOP + di * STEP} width={CELL} height={CELL} rx={2} fill={LEVEL_FILL[d.level]}>
+                <rect key={d.date} x={LEFT + wi * STEP} y={TOP + di * STEP} width={CELL} height={CELL} rx={2} fill={ramp[d.level]}>
                   <title>{`${d.date}: ${d.count} contributions`}</title>
                 </rect>
               ) : null,

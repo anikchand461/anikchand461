@@ -3,16 +3,14 @@
  * the same calculations the interactive React components use.
  */
 import {
-  GRADE_SCALE,
   MONTHS,
   WEEKDAYS,
-  activityGrade,
   contributionStats,
   fmt,
   languageColor,
+  languageShares,
   monthTotals,
   rankRepos,
-  recentOriginalRepos,
   rollingYear,
   totalStars,
   weekdayTotals,
@@ -20,8 +18,98 @@ import {
   yearGrid,
   yearsOf,
 } from '../analytics';
-import type { ContribData, Counts, GhRepo, Res } from '../types';
-import { Block, C, HEAT, INNER, circle, line, message, meta, note, rect, text, tile, trunc } from './kit';
+import { HEAT_RAMPS, MONTH_COLORS, P, STAT_COLORS, WEEKDAY_COLORS } from '../palette';
+import type { ContribData, Counts, GhRepo, LanguageBytes, Res } from '../types';
+import { Block, C, INNER, circle, line, message, meta, note, rect, text, tile, trunc } from './kit';
+
+// ---------- 1. stats (top card) ----------
+
+function ring(cx: number, cy: number, r: number, pct: number, color: string): string {
+  const c = 2 * Math.PI * r;
+  return (
+    `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#21262d" stroke-width="9"/>` +
+    `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${color}" stroke-width="9" stroke-linecap="round" ` +
+    `stroke-dasharray="${((Math.min(100, pct) / 100) * c).toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 ${cx} ${cy})"/>`
+  );
+}
+
+export function stats(repos: Res<GhRepo[]>, contrib: Res<ContribData>, counts: Res<Counts>, bytes: Res<LanguageBytes>): Block {
+  if (!contrib.ok) return message(contrib.error);
+  const s = contributionStats(contrib.v.days);
+  const num = (n: number | undefined) => (n === undefined ? '—' : fmt(n));
+
+  const rows: [string, string, string][] = [
+    ['Total Stars Earned', repos.ok ? fmt(totalStars(repos.v, true)) : '—', STAT_COLORS.stars],
+    ['Total Commits', num(counts.ok ? counts.v.commits : undefined), STAT_COLORS.commits],
+    ['Total PRs', num(counts.ok ? counts.v.prs : undefined), STAT_COLORS.prs],
+    ['Total Issues', num(counts.ok ? counts.v.issues : undefined), STAT_COLORS.issues],
+    ['Contributed to (other repos)', num(contrib.v.contributedTo), STAT_COLORS.contributed],
+  ];
+
+  let body = text(0, 14, 'Overview', { size: 13, weight: 700, fill: P.gold });
+  rows.forEach(([label, value, color], i) => {
+    const y = 42 + i * 30;
+    body += circle(5, y - 4, 4.5, color) + text(18, y, label, { size: 12 }) + text(300, y, value, { size: 14, weight: 700, fill: color, anchor: 'end' });
+  });
+
+  // ring: contribution frequency
+  body += ring(400, 88, 50, s.frequency, P.green);
+  body += text(400, 96, `${s.frequency.toFixed(0)}%`, { size: 26, weight: 700, fill: P.green, anchor: 'middle' });
+  body += text(400, 112, 'ACTIVE DAYS', { size: 8, fill: C.muted, anchor: 'middle', spacing: 0.6 });
+
+  // languages
+  const langs = repos.ok ? languageShares(bytes.ok ? bytes.v : null, repos.v).rows.slice(0, 8) : [];
+  const lx = 500;
+  const lw = INNER - lx;
+  body += text(lx, 14, 'Most Used Languages', { size: 13, weight: 700, fill: P.cyan });
+  body += rect(lx, 28, lw, 10, C.card2, 5);
+  let cx = lx;
+  langs.forEach((l) => {
+    const w = (l.percent / 100) * lw;
+    body += rect(cx, 28, w, 10, languageColor(l.name), 0);
+    cx += w;
+  });
+  langs.forEach((l, i) => {
+    const x = lx + (i % 2) * (lw / 2);
+    const y = 66 + Math.floor(i / 2) * 26;
+    body += circle(x + 4, y - 4, 4.5, languageColor(l.name)) + text(x + 16, y, `${trunc(l.name, 18)} ${l.percent.toFixed(1)}%`, { size: 12 });
+  });
+  if (!langs.length) body += text(lx, 66, 'No language data.', { size: 11, fill: C.muted });
+
+  // big three
+  const y0 = 186;
+  body += line(0, y0 - 12, INNER, y0 - 12);
+  body += line(INNER / 3, y0, INNER / 3, y0 + 140) + line((INNER * 2) / 3, y0, (INNER * 2) / 3, y0 + 140);
+  const c1 = INNER / 6;
+  const c2 = INNER / 2;
+  const c3 = (INNER * 5) / 6;
+  body +=
+    text(c1, y0 + 62, fmt(s.total), { size: 40, weight: 700, fill: P.blue, anchor: 'middle' }) +
+    text(c1, y0 + 92, 'Total Contributions', { size: 14, anchor: 'middle' }) +
+    text(c1, y0 + 114, `${contrib.v.days[0]?.date ?? ''} → present`, { size: 10.5, fill: C.muted, anchor: 'middle' });
+  body +=
+    ring(c2, y0 + 50, 42, (s.currentStreak / Math.max(s.longestStreak, 1)) * 100, P.orange) +
+    text(c2, y0 + 58, String(s.currentStreak), { size: 30, weight: 700, fill: P.orange, anchor: 'middle' }) +
+    text(c2, y0 + 118, 'Current Streak', { size: 14, weight: 700, fill: P.orange, anchor: 'middle' }) +
+    text(c2, y0 + 136, s.currentStreakRange ?? 'No active streak', { size: 10.5, fill: C.muted, anchor: 'middle' });
+  body +=
+    text(c3, y0 + 62, String(s.longestStreak), { size: 40, weight: 700, fill: P.pink, anchor: 'middle' }) +
+    text(c3, y0 + 92, 'Longest Streak', { size: 14, anchor: 'middle' }) +
+    text(c3, y0 + 114, s.longestStreakRange ?? '', { size: 10.5, fill: C.muted, anchor: 'middle' });
+
+  // extra tiles
+  const ty = y0 + 160;
+  const gap = 10;
+  const tw = (INNER - gap * 3) / 4;
+  const tiles: [string, string, string, string][] = [
+    ['Average per day', s.avgPerDay.toFixed(1), 'Trailing 12 months', P.cyan],
+    ['Contribution frequency', `${s.frequency.toFixed(0)}%`, 'Days with activity', P.green],
+    ['Last 12 months', fmt(s.trailingYear), `${fmt(s.activeDays)} active days overall`, P.purple],
+    ['Busiest day', s.peakDay ? fmt(s.peakDay.count) : '—', s.peakDay?.date ?? '', P.gold],
+  ];
+  tiles.forEach(([l, v, sub, color], i) => (body += tile(i * (tw + gap), ty, tw, 72, l, v, sub, color)));
+  return { h: ty + 72, body };
+}
 
 // ---------- 2. momentum ----------
 
@@ -47,48 +135,25 @@ export function momentum(contrib: Res<ContribData>): Block {
   let lastYear = '';
   series.forEach((s, i) => {
     const y = s.date.slice(0, 4);
-    if (y !== lastYear && s.date.slice(5, 7) <= '01') {
-      ticks += text(pt(i, 0)[0], top + ch + 16, y, { size: 9, fill: C.muted, anchor: 'middle' });
-    }
+    if (y !== lastYear && s.date.slice(5, 7) <= '01') ticks += text(pt(i, 0)[0], top + ch + 16, y, { size: 9, fill: C.muted, anchor: 'middle' });
     lastYear = y;
   });
-  const stats = contributionStats(contrib.v.days);
+  const st = contributionStats(contrib.v.days);
   const peak = series.reduce((p, s) => (s.value > p.value ? s : p), series[0]);
   const body =
-    `<defs><linearGradient id="mom" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.green}" stop-opacity=".45"/><stop offset="1" stop-color="${C.green}" stop-opacity="0"/></linearGradient></defs>` +
+    `<defs><linearGradient id="mom" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${P.purple}" stop-opacity=".5"/><stop offset="1" stop-color="${P.blue}" stop-opacity="0"/></linearGradient>` +
+    `<linearGradient id="momStroke" gradientUnits="userSpaceOnUse" x1="${left}" y1="0" x2="${left + cw}" y2="0"><stop offset="0" stop-color="${P.cyan}"/><stop offset=".5" stop-color="${P.blue}"/><stop offset="1" stop-color="${P.pink}"/></linearGradient></defs>` +
     grid +
     `<path d="${area}" fill="url(#mom)"/>` +
-    `<path d="${path}" fill="none" stroke="${C.green}" stroke-width="2" stroke-linejoin="round"/>` +
+    `<path d="${path}" fill="none" stroke="url(#momStroke)" stroke-width="2.5" stroke-linejoin="round"/>` +
     ticks +
-    text(left + 8, top + 26, fmt(stats.trailingYear), { size: 26, weight: 700, fill: C.gold }) +
+    text(left + 8, top + 26, fmt(st.trailingYear), { size: 26, weight: 700, fill: P.pink }) +
     text(left + 8, top + 40, 'TRAILING 12 MONTHS', { size: 8.5, fill: C.muted, spacing: 0.6 }) +
-    note(top + ch + 38, `${fmt(stats.total)} contributions since ${contrib.v.days[0].date}. Peak rolling year ${fmt(peak.value)} (${peak.date}).`);
+    note(top + ch + 38, `${fmt(st.total)} contributions since ${contrib.v.days[0].date}. Peak rolling year ${fmt(peak.value)} (${peak.date}).`);
   return { h: top + ch + 46, body };
 }
 
-// ---------- 3. contributions ----------
-
-export function contributions(contrib: Res<ContribData>): Block {
-  if (!contrib.ok) return message(contrib.error);
-  const s = contributionStats(contrib.v.days);
-  const gap = 10;
-  const w = (INNER - gap * 2) / 3;
-  const h = 70;
-  const tiles: [string, string, string | undefined, boolean?][] = [
-    ['Current streak', `${s.currentStreak} days`, s.currentStreakRange ?? 'No active streak', true],
-    ['Longest streak', `${s.longestStreak} days`, s.longestStreakRange ?? undefined],
-    ['Total contributions', fmt(s.total), `${fmt(s.activeDays)} active days`],
-    ['Last 12 months', fmt(s.trailingYear), undefined],
-    ['Average per day', s.avgPerDay.toFixed(1), 'Trailing 12 months'],
-    ['Contribution frequency', `${s.frequency.toFixed(0)}%`, 'Days with activity'],
-  ];
-  const body =
-    tiles.map(([l, v, sub, g], i) => tile((i % 3) * (w + gap), Math.floor(i / 3) * (h + gap), w, h, l, v, sub, g)).join('') +
-    (s.peakDay ? note(h * 2 + gap + 18, `Busiest day: ${s.peakDay.date} with ${fmt(s.peakDay.count)} contributions.`) : '');
-  return { h: h * 2 + gap + 26, body };
-}
-
-// ---------- 4. lifetime history ----------
+// ---------- 3. lifetime history ----------
 
 export function heatmap(contrib: Res<ContribData>): Block {
   if (!contrib.ok) return message(contrib.error);
@@ -98,9 +163,10 @@ export function heatmap(contrib: Res<ContribData>): Block {
   const LEFT = 30;
   let y = 0;
   let body = '';
-  for (const yr of years) {
+  years.forEach((yr, yi) => {
+    const ramp = HEAT_RAMPS[yi % HEAT_RAMPS.length];
     const weeks = yearGrid(contrib.v.days, yr);
-    body += text(0, y + 10, `${yr} · ${fmt(contrib.v.totals[String(yr)] ?? 0)} contributions`, { size: 10, fill: C.muted });
+    body += text(0, y + 10, `${yr} · ${fmt(contrib.v.totals[String(yr)] ?? 0)} contributions`, { size: 10, fill: ramp[4] });
     let prev = -1;
     weeks.forEach((wk, i) => {
       const first = wk.find(Boolean);
@@ -114,19 +180,18 @@ export function heatmap(contrib: Res<ContribData>): Block {
     for (const d of [1, 3, 5]) body += text(0, y + 32 + d * STEP + 10, WEEKDAYS[d], { size: 9, fill: C.muted });
     weeks.forEach((wk, wi) =>
       wk.forEach((d, di) => {
-        if (d) body += rect(LEFT + wi * STEP, y + 30 + di * STEP, CELL, CELL, HEAT[d.level], 2.5);
+        if (d) body += rect(LEFT + wi * STEP, y + 30 + di * STEP, CELL, CELL, ramp[d.level], 2.5);
       }),
     );
     y += 30 + 7 * STEP + 14;
-  }
-  // legend
+  });
   body += text(INNER - 5 * 18 - 64, y + 9, 'Less', { size: 9, fill: C.muted });
-  HEAT.forEach((f, i) => (body += rect(INNER - 5 * 18 - 30 + i * 18, y, 13, 13, f, 2.5)));
+  HEAT_RAMPS[0].forEach((f, i) => (body += rect(INNER - 5 * 18 - 30 + i * 18, y, 13, 13, f, 2.5)));
   body += text(INNER, y + 9, 'More', { size: 9, fill: C.muted, anchor: 'end' });
   return { h: y + 18, body };
 }
 
-// ---------- 6. rhythm ----------
+// ---------- 4. rhythm ----------
 
 export function rhythm(contrib: Res<ContribData>): Block {
   if (!contrib.ok) return message(contrib.error);
@@ -138,22 +203,22 @@ export function rhythm(contrib: Res<ContribData>): Block {
   [1, 2, 3, 4, 5, 6, 0].forEach((d, i) => {
     const y = 24 + i * 22;
     body +=
-      text(0, y + 9, WEEKDAYS[d], { size: 11 }) +
+      text(0, y + 9, WEEKDAYS[d], { size: 11, fill: WEEKDAY_COLORS[d] }) +
       rect(40, y, 340, 11, C.card2, 3) +
-      rect(40, y, (week[d] / maxW) * 340, 11, C.green, 3) +
+      rect(40, y, (week[d] / maxW) * 340, 11, WEEKDAY_COLORS[d], 3) +
       text(430, y + 9, fmt(week[d]), { size: 10.5, anchor: 'end', fill: C.muted });
   });
   const colW = 34;
   month.forEach((v, i) => {
     const h = Math.max(2, (v / maxM) * 110);
     const x = 500 + i * colW;
-    body += rect(x, 24 + 118 - h, colW - 6, h, C.green, 3) + text(x + (colW - 6) / 2, 24 + 134, MONTHS[i][0], { size: 10, fill: C.muted, anchor: 'middle' });
+    body += rect(x, 24 + 118 - h, colW - 6, h, MONTH_COLORS[i], 3) + text(x + (colW - 6) / 2, 24 + 134, MONTHS[i][0], { size: 10, fill: MONTH_COLORS[i], anchor: 'middle' });
   });
-  body += note(196, `${weekendShare(contrib.v.days).toFixed(0)}% of contributions land on weekends. Time-of-day is under Commit cadence.`);
+  body += note(196, `${weekendShare(contrib.v.days).toFixed(0)}% of contributions land on weekends.`);
   return { h: 206, body };
 }
 
-// ---------- 8. repository analysis ----------
+// ---------- 5. repository analysis ----------
 
 export function repositories(res: Res<GhRepo[]>): Block {
   if (!res.ok) return message(res.error);
@@ -167,11 +232,11 @@ export function repositories(res: Res<GhRepo[]>): Block {
   rows.forEach((r, i) => {
     const y = 20 + i * 26;
     body += line(0, y, INNER, y);
-    body += text(cols.name, y + 17, trunc(r.name, 40), { size: 11.5, fill: C.gold });
+    body += text(cols.name, y + 17, trunc(r.name, 40), { size: 11.5, fill: P.gold });
     if (r.language) body += circle(cols.lang + 4, y + 13.5, 4, languageColor(r.language)) + text(cols.lang + 14, y + 17, trunc(r.language, 20), { size: 11 });
     else body += text(cols.lang, y + 17, '—', { size: 11, fill: C.muted });
-    body += text(cols.stars, y + 17, fmt(r.stargazers_count), { size: 11, anchor: 'end' });
-    body += text(cols.forks, y + 17, fmt(r.forks_count), { size: 11, anchor: 'end' });
+    body += text(cols.stars, y + 17, fmt(r.stargazers_count), { size: 11, anchor: 'end', fill: P.gold });
+    body += text(cols.forks, y + 17, fmt(r.forks_count), { size: 11, anchor: 'end', fill: P.blue });
     body += text(cols.size, y + 17, r.size >= 1024 ? `${(r.size / 1024).toFixed(1)} MB` : `${r.size} KB`, { size: 11, anchor: 'end' });
     body += text(cols.upd, y + 17, r.pushed_at.slice(0, 10), { size: 11, anchor: 'end', fill: C.muted });
   });
@@ -179,7 +244,7 @@ export function repositories(res: Res<GhRepo[]>): Block {
   return { h: 20 + rows.length * 26 + 26, body };
 }
 
-// ---------- 9. portfolio ----------
+// ---------- 6. portfolio ----------
 
 export function portfolio(res: Res<GhRepo[]>): Block {
   if (!res.ok) return message(res.error);
@@ -199,44 +264,13 @@ export function portfolio(res: Res<GhRepo[]>): Block {
     const y = i * rowH + rowH / 2;
     const a = x(new Date(r.created_at).getTime());
     const b = Math.max(a + 4, x(new Date(r.pushed_at).getTime()));
-    const color = r.archived ? C.grey : C.green;
+    const color = r.archived ? C.grey : r.language ? languageColor(r.language) : P.green;
     body +=
       circle(6, y, 4, r.language ? languageColor(r.language) : C.grey) +
       text(18, y + 4, trunc(r.name, 26), { size: 11 }) +
       `<line x1="${a.toFixed(1)}" y1="${y}" x2="${b.toFixed(1)}" y2="${y}" stroke="${color}" stroke-width="3" stroke-linecap="round"/>` +
       circle(b, y, 3.5, color);
   });
-  body += note(rows.length * rowH + 38, 'Each bar runs from creation to last push (a proxy for active period). Grey = archived.');
+  body += note(rows.length * rowH + 38, 'Each bar runs from creation to last push (a proxy for active period), coloured by language. Grey = archived.');
   return { h: rows.length * rowH + 46, body };
 }
-
-// ---------- 11. grade ----------
-
-export function grade(contrib: Res<ContribData>, counts: Res<Counts>, repos: Res<GhRepo[]>): Block {
-  if (!contrib.ok || !counts.ok || !repos.ok) return message('Grade needs contributions, counts and repositories; one failed to load.');
-  const s = contributionStats(contrib.v.days);
-  const g = activityGrade({
-    trailingYear: s.trailingYear,
-    activeDayPct: s.frequency,
-    longestStreak: s.longestStreak,
-    prs: counts.v.prs,
-    issues: counts.v.issues,
-    reviews: counts.v.reviews,
-    stars: totalStars(repos.v),
-    recentRepos: recentOriginalRepos(repos.v),
-  });
-  let body =
-    text(70, 80, g.grade, { size: 72, weight: 800, fill: C.gold, anchor: 'middle' }) +
-    text(70, 102, `${g.score.toFixed(0)} / 100`, { size: 12, fill: C.muted, anchor: 'middle' });
-  g.parts.forEach((p, i) => {
-    const y = 8 + i * 22;
-    body +=
-      text(160, y + 9, `${p.label} ×${Math.round(p.weight * 100)}%`, { size: 11 }) +
-      rect(360, y, 200, 9, C.card2, 3) +
-      rect(360, y, (p.score / 100) * 200, 9, C.green, 3) +
-      text(578, y + 9, trunc(p.detail, 52), { size: 10, fill: C.muted });
-  });
-  body += note(8 + 8 * 22 + 14, `Custom metric, not an official GitHub score. ${GRADE_SCALE.map(([m, l]) => `${l}≥${m}`).join(' ')}. Measures GitHub activity only.`);
-  return { h: 8 + 8 * 22 + 22, body };
-}
-

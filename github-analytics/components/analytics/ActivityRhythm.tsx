@@ -4,11 +4,12 @@ import { useMemo } from 'react';
 import { Async } from '@/components/ui/Async';
 import { Card } from '@/components/ui/Card';
 import { MONTHS, WEEKDAYS, fmt, monthTotals, weekdayTotals, weekendShare } from '@/lib/analytics';
+import { MONTH_COLORS, P, WEEKDAY_COLORS } from '@/lib/palette';
 import type { AsyncState, ContribData } from '@/lib/types';
 
 export function ActivityRhythm({ state }: { state: AsyncState<ContribData> }) {
   return (
-    <Card title="Activity rhythm" meta="All contribution types · all years">
+    <Card title="Activity rhythm" meta="All contribution types · all years" accent={P.orange}>
       <Async state={state} isEmpty={(c) => c.days.length === 0}>
         {(c) => <Body data={c} />}
       </Async>
@@ -33,7 +34,7 @@ function Body({ data }: { data: ContribData }) {
             <div className="bar-row" key={d}>
               <span>{WEEKDAYS[d]}</span>
               <div className="bar" role="img" aria-label={`${WEEKDAYS[d]}: ${week[d]}`}>
-                <i style={{ width: `${(week[d] / maxW) * 100}%` }} />
+                <i style={{ width: `${(week[d] / maxW) * 100}%`, background: WEEKDAY_COLORS[d] }} />
               </div>
               <span style={{ textAlign: 'right' }}>{fmt(week[d])}</span>
             </div>
@@ -44,7 +45,7 @@ function Body({ data }: { data: ContribData }) {
           <div style={{ display: 'flex', alignItems: 'flex-end', gap: 4, height: 130 }}>
             {month.map((v, i) => (
               <div key={i} style={{ flex: 1, textAlign: 'center' }} title={`${MONTHS[i]}: ${fmt(v)}`}>
-                <div style={{ height: Math.max(2, (v / maxM) * 110), background: 'var(--green)', borderRadius: 3 }} />
+                <div style={{ height: Math.max(2, (v / maxM) * 110), background: MONTH_COLORS[i], borderRadius: 3 }} />
                 <div className="meta" style={{ marginTop: 4 }}>{MONTHS[i][0]}</div>
               </div>
             ))}
@@ -52,8 +53,7 @@ function Body({ data }: { data: ContribData }) {
         </div>
       </div>
       <p className="note">
-        <b>{weekend.toFixed(0)}%</b> of contributions land on weekends. Time-of-day is shown under Commit cadence, because the
-        contribution calendar has no timestamps.
+        <b>{weekend.toFixed(0)}%</b> of contributions land on weekends.
       </p>
     </>
   );

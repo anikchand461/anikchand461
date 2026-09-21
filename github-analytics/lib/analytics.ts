@@ -1,5 +1,5 @@
 /** Pure functions: raw GitHub data in, chart-ready data out. No I/O. */
-import type { ContribDay, GhRepo } from './types';
+import type { ContribDay, GhRepo, LanguageBytes } from './types';
 
 const DAY = 86_400_000;
 const toUtc = (iso: string) => new Date(`${iso}T00:00:00Z`).getTime();
@@ -115,10 +115,6 @@ export function weekendShare(days: ContribDay[]): number {
   return all ? ((t[0] + t[6]) / all) * 100 : 0;
 }
 
-export interface RepoRow extends GhRepo {
-  ageDays: number;
-}
-
 export type RepoSort = 'stars' | 'forks' | 'pushed' | 'size';
 
 export function rankRepos(repos: GhRepo[], sort: RepoSort, includeForks = false): GhRepo[] {
@@ -133,8 +129,33 @@ export function rankRepos(repos: GhRepo[], sort: RepoSort, includeForks = false)
     .sort((a, b) => key[sort](b) - key[sort](a) || a.name.localeCompare(b.name));
 }
 
-export function totalStars(repos: GhRepo[]): number {
-  return repos.filter((r) => !r.fork).reduce((s, r) => s + r.stargazers_count, 0);
+export function totalStars(repos: GhRepo[], includeForks = false): number {
+  return repos.filter((r) => includeForks || !r.fork).reduce((s, r) => s + r.stargazers_count, 0);
+}
+
+export interface LanguageShare {
+  name: string;
+  value: number;
+  percent: number;
+}
+
+/** Bytes when available, otherwise number of repos using the language as primary. */
+export function languageShares(bytes: LanguageBytes | null, repos: GhRepo[]): { unit: 'bytes' | 'repos'; rows: LanguageShare[] } {
+  let source: Record<string, number>;
+  let unit: 'bytes' | 'repos';
+  if (bytes && Object.keys(bytes).length) {
+    source = bytes;
+    unit = 'bytes';
+  } else {
+    source = {};
+    for (const r of repos) if (!r.fork && r.language) source[r.language] = (source[r.language] ?? 0) + 1;
+    unit = 'repos';
+  }
+  const total = Object.values(source).reduce((a, b) => a + b, 0);
+  const rows = Object.entries(source)
+    .map(([name, value]) => ({ name, value, percent: total ? (value / total) * 100 : 0 }))
+    .sort((a, b) => b.value - a.value);
+  return { unit, rows };
 }
 
 export const LANGUAGE_COLORS: Record<string, string> = {
@@ -151,60 +172,6 @@ export const LANGUAGE_COLORS: Record<string, string> = {
   Shell: '#89e051',
 };
 export const languageColor = (name: string) => LANGUAGE_COLORS[name] ?? '#6e7681';
-
-// ---------- custom activity grade ----------
-
-export interface GradeInput {
-  trailingYear: number;
-  activeDayPct: number;
-  longestStreak: number;
-  prs: number;
-  issues: number;
-  reviews: number;
-  stars: number;
-  recentRepos: number; // original repos pushed in the last 90 days
-}
-
-export interface GradeBreakdown {
-  label: string;
-  score: number; // 0-100
-  weight: number;
-  detail: string;
-}
-
-const sat = (value: number, target: number) => Math.min(100, (value / target) * 100);
-
-/**
- * Custom metric, not an official GitHub score. Each dimension is scored 0-100 as
- * min(value / target, 1) * 100, then combined with the weights below.
- */
-export function activityGrade(g: GradeInput) {
-  const parts: GradeBreakdown[] = [
-    { label: 'Contribution volume', weight: 0.25, score: sat(g.trailingYear, 1000), detail: `${g.trailingYear} in last 12 mo (target 1,000)` },
-    { label: 'Consistency', weight: 0.2, score: sat(g.activeDayPct, 50), detail: `${g.activeDayPct.toFixed(0)}% active days (target 50%)` },
-    { label: 'Longest streak', weight: 0.1, score: sat(g.longestStreak, 60), detail: `${g.longestStreak} days (target 60)` },
-    { label: 'Pull requests', weight: 0.15, score: sat(g.prs, 100), detail: `${g.prs} lifetime (target 100)` },
-    { label: 'Issues', weight: 0.05, score: sat(g.issues, 30), detail: `${g.issues} lifetime (target 30)` },
-    { label: 'Code reviews', weight: 0.05, score: sat(g.reviews, 30), detail: `${g.reviews} lifetime (target 30)` },
-    { label: 'Stars', weight: 0.1, score: sat(g.stars, 50), detail: `${g.stars} on original repos (target 50)` },
-    { label: 'Repository activity', weight: 0.1, score: sat(g.recentRepos, 5), detail: `${g.recentRepos} repos pushed in 90 days (target 5)` },
-  ];
-  const score = parts.reduce((s, p) => s + p.score * p.weight, 0);
-  return { score, grade: letter(score), parts };
-}
-
-const LETTERS: [number, string][] = [
-  [95, 'S'], [90, 'A+'], [85, 'A'], [80, 'A-'], [75, 'B+'], [70, 'B'],
-  [65, 'B-'], [60, 'C+'], [55, 'C'], [50, 'C-'], [40, 'D'],
-];
-export const GRADE_SCALE = LETTERS;
-export function letter(score: number): string {
-  return LETTERS.find(([min]) => score >= min)?.[1] ?? 'F';
-}
-
-export function recentOriginalRepos(repos: GhRepo[], now = Date.now()): number {
-  return repos.filter((r) => !r.fork && now - new Date(r.pushed_at).getTime() < 90 * DAY).length;
-}
 
 export const fmt = (n: number) => n.toLocaleString('en-US');
 export const dayIndex = toUtc;

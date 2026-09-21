@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import { Async } from '@/components/ui/Async';
 import { Card } from '@/components/ui/Card';
 import { RepoSort, fmt, languageColor, rankRepos } from '@/lib/analytics';
+import { P } from '@/lib/palette';
 import type { AsyncState, GhRepo } from '@/lib/types';
 
 const SORTS: { id: RepoSort; label: string }[] = [
@@ -16,7 +17,7 @@ const SORTS: { id: RepoSort; label: string }[] = [
 export function RepositoryAnalysis({ state }: { state: AsyncState<GhRepo[]> }) {
   const [sort, setSort] = useState<RepoSort>('stars');
   return (
-    <Card title="Top repositories" meta={`Sorted by ${SORTS.find((s) => s.id === sort)!.label.toLowerCase()} · forks excluded`}>
+    <Card title="Top repositories" meta={`Sorted by ${SORTS.find((s) => s.id === sort)!.label.toLowerCase()} · forks excluded`} accent={P.purple}>
       <Async state={state} isEmpty={(r) => r.filter((x) => !x.fork).length === 0} emptyText="No public repositories.">
         {(repos) => <Table repos={repos} sort={sort} onSort={setSort} />}
       </Async>
@@ -64,8 +65,8 @@ function Table({ repos, sort, onSort }: { repos: GhRepo[]; sort: RepoSort; onSor
                     '—'
                   )}
                 </td>
-                <td className="num">{fmt(r.stargazers_count)}</td>
-                <td className="num">{fmt(r.forks_count)}</td>
+                <td className="num" style={{ color: P.gold }}>{fmt(r.stargazers_count)}</td>
+                <td className="num" style={{ color: P.blue }}>{fmt(r.forks_count)}</td>
                 <td className="num">{r.size >= 1024 ? `${(r.size / 1024).toFixed(1)} MB` : `${r.size} KB`}</td>
                 <td>{r.pushed_at.slice(0, 10)}</td>
               </tr>

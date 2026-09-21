@@ -4,6 +4,7 @@ import { useMemo } from 'react';
 import { Async } from '@/components/ui/Async';
 import { Card } from '@/components/ui/Card';
 import { languageColor, rankRepos } from '@/lib/analytics';
+import { P } from '@/lib/palette';
 import type { AsyncState, GhRepo } from '@/lib/types';
 
 const ROW = 24;
@@ -13,7 +14,7 @@ const W = 860;
 
 export function RepositoryPortfolio({ state }: { state: AsyncState<GhRepo[]> }) {
   return (
-    <Card title="Portfolio" meta="Created → last push · most recently pushed">
+    <Card title="Portfolio" meta="Created → last push · most recently pushed" accent={P.pink}>
       <Async state={state} isEmpty={(r) => r.filter((x) => !x.fork).length === 0} emptyText="No public repositories.">
         {(repos) => <Timeline repos={repos} />}
       </Async>
@@ -49,7 +50,7 @@ function Timeline({ repos }: { repos: GhRepo[] }) {
             const y = i * ROW + ROW / 2;
             const a = x(new Date(r.created_at).getTime());
             const b = Math.max(a + 4, x(new Date(r.pushed_at).getTime()));
-            const color = r.archived ? '#6e7681' : '#39d353';
+            const color = r.archived ? '#6e7681' : r.language ? languageColor(r.language) : P.green;
             return (
               <g key={r.full_name}>
                 <circle cx={6} cy={y} r={4} fill={r.language ? languageColor(r.language) : '#6e7681'} />

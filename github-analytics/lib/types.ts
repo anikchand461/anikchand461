@@ -34,7 +34,13 @@ export interface ContribDay {
 export interface ContribData {
   days: ContribDay[]; // sorted ascending
   totals: Record<string, number>; // per calendar year
+  /** Lifetime totals from GitHub GraphQL (includes private when enabled). Only present with GITHUB_TOKEN. */
+  counts?: Counts;
+  /** Distinct other-people repositories contributed to. Only present with GITHUB_TOKEN. */
+  contributedTo?: number;
 }
+
+export type LanguageBytes = Record<string, number>;
 
 export interface Counts {
   commits: number;

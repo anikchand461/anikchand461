@@ -19,7 +19,6 @@ environment variables below and redeploy.
 |---|---|---|
 | `GITHUB_TOKEN` | Recommended | Server-only. Lifts rate limits and switches the contribution calendar to GitHub's own GraphQL API |
 | `NEXT_PUBLIC_GITHUB_USERNAME` | No (default `anikchand461`) | Whose profile to show |
-| `NEXT_PUBLIC_SHOW_GRADE` | No (default `true`) | `false` hides the custom activity grade |
 
 **Never** name the token `NEXT_PUBLIC_*`: that prefix is bundled into browser code.
 
@@ -32,8 +31,8 @@ site keeps working on the anonymous fallback but with fewer/less accurate number
 
 ## What's shown
 
-Momentum, Contributions, Contribution history (heatmap), Activity rhythm, Top repositories, Portfolio timeline, and the custom
-Activity grade.
+GitHub Stats (totals, streaks, average per day, contribution frequency, top languages), Momentum, Contribution history
+(heatmap), Activity rhythm, Top repositories and the Portfolio timeline.
 
 ## Data sources
 
@@ -41,7 +40,8 @@ Activity grade.
 |---|---|---|
 | Contribution calendar (heatmap, streaks, momentum, rhythm) | GitHub GraphQL, includes private contributions | Third-party `github-contributions-api.jogruber.de` (public only) |
 | Profile, repos, stars | GitHub REST, 5,000 req/h | 60 req/h shared by the host's IP |
-| PR / issue / review / commit counts | GitHub search, 30 req/min | 10 req/min |
+| Commit / PR / issue / review totals | GitHub GraphQL, lifetime, includes private | Public search API only, 10 req/min |
+| "Contributed to" repositories | GitHub GraphQL | Not shown |
 
 If GraphQL ever fails, the calendar falls back to the third-party API rather than showing an error.
 Not available at all: per-repository commit counts and code-review counts beyond search.
@@ -62,13 +62,8 @@ components/
   ui/             Card, Tile, Async (loading / error / empty)
 lib/
   github.ts       all fetching (server only)
-  analytics.ts    pure calculations (streaks, rolling year, grade)
+  analytics.ts    pure calculations (streaks, rolling year, languages)
+  palette.ts      shared colours (page + README image)
   svg/            SVG renderer for the README image
   types.ts        data interfaces
 ```
-
-## Activity grade
-
-A custom metric, not an official GitHub score. Eight dimensions, each min(value ÷ target, 1) × 100, weighted:
-contribution volume 25%, consistency 20%, longest streak 10%, PRs 15%, issues 5%, reviews 5%, stars 10%, recent repo
-activity 10%. Targets and letter cut-offs live in `lib/analytics.ts`.
